@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91e60372-c28b-44b6-a576-dfe91a4bd8c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/androidwave/cleancode/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/jnsoftware/tumblr/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/BaseDataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/BaseDataManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/DataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/DataManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/db/AppDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/db/AppDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/db/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/db/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/db/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/db/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/NetworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/NetworkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/RestApiHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/RestApiHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/RestApiManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/RestApiManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/WrapperConverterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/WrapperConverterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/WrapperError.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/WrapperError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/WrapperResponseConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/WrapperResponseConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/pojo/FeedItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/pojo/FeedItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/pojo/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/pojo/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/pojo/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/pojo/UserProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/pojo/WrapperResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/pojo/WrapperResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/prefs/PreferencesHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/prefs/PreferencesHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/prefs/PreferencesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/prefs/PreferencesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/utils/DateConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/utils/DateConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/utils/LoggedInMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/utils/LoggedInMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/ActivityContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/ActivityContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/ApiInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/ApiInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/ApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/DatabaseInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/DatabaseInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/PerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/PerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/PerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/PerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/PreferenceInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/PreferenceInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/component/ActivityComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/component/ActivityComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/component/ApplicationComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/component/ApplicationComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/module/ActivityModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/module/ActivityModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/module/ApplicationModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/module/ApplicationModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/root/AppConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/root/AppConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/root/WaveApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/root/TumblrViewerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/base/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/base/BaseFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/BaseFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/base/BasePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/BasePresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/base/BaseViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/BaseViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/base/MvpPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/MvpPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/base/MvpView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/MvpView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/login/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/login/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/login/LoginMvpPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/login/LoginMvpPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/login/LoginMvpView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/login/LoginMvpView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/login/LoginPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/login/LoginPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/main/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/main/MainMvpPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainMvpPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/main/MainMvpView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainMvpView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/main/MainPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/main/RssAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/RssAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/utils/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/utils/DividerItemDecoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/utils/DividerItemDecoration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/utils/NetworkUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/utils/NetworkUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/utils/rx/AppSchedulerProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/utils/rx/AppSchedulerProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/utils/rx/SchedulerProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/utils/rx/SchedulerProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/androidwave/cleancode/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/jnsoftware/tumblr/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Honor_6X_API_24" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YloQOtEFLdY050lPkBRCmgGB05" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Variables" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Default Config" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91e60372-c28b-44b6-a576-dfe91a4bd8c0" name="Default Changelist" comment="" />
+      <created>1583526524906</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583526524906</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+</project>
