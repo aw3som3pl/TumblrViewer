@@ -9,73 +9,82 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91e60372-c28b-44b6-a576-dfe91a4bd8c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="91e60372-c28b-44b6-a576-dfe91a4bd8c0" name="Default Changelist" comment="Initialization development branch">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_alpha03_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_alpha03_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_0_alpha02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_common_2_2_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_2_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_alpha04_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_alpha04_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_3_0_alpha04_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_3_0_alpha04_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_2_0_alpha05_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/androidwave/cleancode/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/jnsoftware/tumblr/ExampleInstrumentedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/BaseDataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/BaseDataManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/DataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/DataManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/db/AppDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/db/AppDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/db/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/db/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/db/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/db/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/NetworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/NetworkService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/RestApiHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/RestApiHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/RestApiManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/RestApiManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/WrapperConverterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/WrapperConverterFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/WrapperError.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/WrapperError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/WrapperResponseConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/WrapperResponseConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/pojo/FeedItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/pojo/FeedItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/pojo/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/pojo/LoginRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/pojo/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/pojo/UserProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/network/pojo/WrapperResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/pojo/WrapperResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/prefs/PreferencesHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/prefs/PreferencesHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/prefs/PreferencesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/prefs/PreferencesManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/utils/DateConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/utils/DateConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/data/utils/LoggedInMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/utils/LoggedInMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/ActivityContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/ActivityContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/ApiInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/ApiInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/ApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/DatabaseInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/DatabaseInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/PerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/PerActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/PerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/PerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/PreferenceInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/PreferenceInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/component/ActivityComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/component/ActivityComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/component/ApplicationComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/component/ApplicationComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/module/ActivityModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/module/ActivityModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/di/module/ApplicationModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/module/ApplicationModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/root/AppConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/root/AppConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/root/WaveApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/root/TumblrViewerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/base/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/BaseActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/base/BaseFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/BaseFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/base/BasePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/BasePresenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/base/BaseViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/BaseViewHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/base/MvpPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/MvpPresenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/base/MvpView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/MvpView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/login/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/login/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/login/LoginMvpPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/login/LoginMvpPresenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/login/LoginMvpView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/login/LoginMvpView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/login/LoginPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/login/LoginPresenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/main/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/main/MainMvpPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainMvpPresenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/main/MainMvpView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainMvpView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/main/MainPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainPresenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/ui/main/RssAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/RssAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/utils/CommonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/utils/DividerItemDecoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/utils/DividerItemDecoration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/utils/NetworkUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/utils/NetworkUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/utils/rx/AppSchedulerProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/utils/rx/AppSchedulerProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidwave/cleancode/utils/rx/SchedulerProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/utils/rx/SchedulerProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/androidwave/cleancode/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/jnsoftware/tumblr/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/component/DaggerActivityComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/component/DaggerActivityComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/component/DaggerApplicationComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/component/DaggerApplicationComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/module/ActivityModule_ProvideActivityFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ActivityModule_ProvideActivityFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/module/ActivityModule_ProvideCompositeDisposableFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ActivityModule_ProvideCompositeDisposableFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/module/ActivityModule_ProvideContextFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ActivityModule_ProvideContextFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/module/ActivityModule_ProvideLoginPresenterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ActivityModule_ProvideLoginPresenterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/module/ActivityModule_ProvideMainPresenterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ActivityModule_ProvideMainPresenterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/module/ActivityModule_ProvideRssAdapterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ActivityModule_ProvideRssAdapterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/module/ActivityModule_ProvideSchedulerProviderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ActivityModule_ProvideSchedulerProviderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/module/ApplicationModule_ProvideApiKeyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ApplicationModule_ProvideApiKeyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/module/ApplicationModule_ProvideApiServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ApplicationModule_ProvideApiServiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/module/ApplicationModule_ProvideAppDatabaseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ApplicationModule_ProvideAppDatabaseFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/module/ApplicationModule_ProvideApplicationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ApplicationModule_ProvideApplicationFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/module/ApplicationModule_ProvideClientFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ApplicationModule_ProvideClientFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/module/ApplicationModule_ProvideContextFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ApplicationModule_ProvideContextFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/module/ApplicationModule_ProvideDataManagerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ApplicationModule_ProvideDataManagerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/module/ApplicationModule_ProvideDatabaseNameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ApplicationModule_ProvideDatabaseNameFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/module/ApplicationModule_ProvidePreferenceNameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ApplicationModule_ProvidePreferenceNameFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/module/ApplicationModule_ProvidePreferencesHelperFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ApplicationModule_ProvidePreferencesHelperFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/module/ApplicationModule_ProvideRestApiHelperFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ApplicationModule_ProvideRestApiHelperFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/di/module/ApplicationModule_ProvideRetrofitFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ApplicationModule_ProvideRetrofitFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/BaseDataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/BaseDataManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/prefs/PreferencesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/prefs/PreferencesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/ActivityContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/dataInterface/ActivityContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/ApiInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/dataInterface/ApiInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/dataInterface/ApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/DatabaseInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/dataInterface/DatabaseInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/PerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/dataInterface/PerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/PerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/dataInterface/PerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/PreferenceInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/dataInterface/PreferenceInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/component/ActivityComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/dataInterface/component/ActivityComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/component/ApplicationComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/dataInterface/component/ApplicationComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/module/ActivityModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/dataInterface/module/ActivityModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/di/module/ApplicationModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/dataInterface/module/ApplicationModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/root/TumblrViewerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/root/TumblrViewerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/BaseFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/BaseFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/login/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/login/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainMvpPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainMvpPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainMvpView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainMvpView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/RssAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/RssAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/utils/rx/AppSchedulerProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/utils/rx/AppSchedulerProvider.java" afterDir="false" />
     </list>
+    <list id="810ccc9b-de8b-445c-bb8a-8051637b0fef" name="Revert &quot;intial project setup&quot;" comment="Revert &quot;intial project setup&quot;&#10;&#10;This reverts commit 972d7faa" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +105,26 @@
     </system>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="development" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/development" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -109,6 +138,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Variables" />
     <property name="project.structure.proportion" value="0.17" />
@@ -202,7 +232,18 @@
       <option name="presentableId" value="Default" />
       <updated>1583526524906</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initialization">
+      <created>1583593870997</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583593870998</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -220,6 +261,7 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="BEK_SORT_TYPE" value="1" />
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -229,6 +271,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Initialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialization" />
   </component>
 </project>

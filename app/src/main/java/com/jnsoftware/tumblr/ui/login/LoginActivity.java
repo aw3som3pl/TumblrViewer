@@ -12,7 +12,8 @@ import com.jnsoftware.tumblr.ui.main.MainActivity;
 import javax.inject.Inject;
 
 /**
- * A login screen that offers login via email/password.
+ * Created on : Feb 07, 2020
+ * Author     : JNsoftware
  */
 public class LoginActivity extends BaseActivity implements LoginMvpView {
     @Inject

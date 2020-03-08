@@ -8,8 +8,6 @@ import io.reactivex.schedulers.Schedulers;
  * Created on : Feb 07, 2020
  * Author     : JNsoftware
  */
-
-
 public class AppSchedulerProvider implements SchedulerProvider {
 
     @Override

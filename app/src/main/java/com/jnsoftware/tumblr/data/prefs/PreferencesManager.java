@@ -4,8 +4,8 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 import com.jnsoftware.tumblr.data.utils.LoggedInMode;
-import com.jnsoftware.tumblr.di.ApplicationContext;
-import com.jnsoftware.tumblr.di.PreferenceInfo;
+import com.jnsoftware.tumblr.dataInterface.ApplicationContext;
+import com.jnsoftware.tumblr.dataInterface.PreferenceInfo;
 import com.jnsoftware.tumblr.root.AppConstant;
 
 import javax.inject.Inject;

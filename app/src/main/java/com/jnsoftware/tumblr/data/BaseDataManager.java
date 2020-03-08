@@ -11,7 +11,7 @@ import com.jnsoftware.tumblr.data.network.pojo.UserProfile;
 import com.jnsoftware.tumblr.data.network.pojo.WrapperResponse;
 import com.jnsoftware.tumblr.data.prefs.PreferencesHelper;
 import com.jnsoftware.tumblr.data.utils.LoggedInMode;
-import com.jnsoftware.tumblr.di.ApplicationContext;
+import com.jnsoftware.tumblr.dataInterface.ApplicationContext;
 
 import java.util.List;
 

@@ -13,9 +13,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.jnsoftware.tumblr.R;
-import com.jnsoftware.tumblr.di.component.ActivityComponent;
-import com.jnsoftware.tumblr.di.component.DaggerActivityComponent;
-import com.jnsoftware.tumblr.di.module.ActivityModule;
+import com.jnsoftware.tumblr.dataInterface.component.ActivityComponent;
+import com.jnsoftware.tumblr.dataInterface.component.DaggerActivityComponent;
+import com.jnsoftware.tumblr.dataInterface.module.ActivityModule;
 import com.jnsoftware.tumblr.root.TumblrViewerApp;
 import com.jnsoftware.tumblr.utils.CommonUtils;
 import com.jnsoftware.tumblr.utils.NetworkUtils;

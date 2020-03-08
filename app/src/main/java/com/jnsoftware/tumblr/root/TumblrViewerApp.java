@@ -2,9 +2,9 @@ package com.jnsoftware.tumblr.root;
 
 import android.app.Application;
 
-import com.jnsoftware.tumblr.di.component.ApplicationComponent;
-import com.jnsoftware.tumblr.di.component.DaggerApplicationComponent;
-import com.jnsoftware.tumblr.di.module.ApplicationModule;
+import com.jnsoftware.tumblr.dataInterface.component.ApplicationComponent;
+import com.jnsoftware.tumblr.dataInterface.component.DaggerApplicationComponent;
+import com.jnsoftware.tumblr.dataInterface.module.ApplicationModule;
 
 /**
  * Created on : Feb 07, 2020

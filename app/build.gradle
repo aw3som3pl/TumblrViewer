@@ -10,7 +10,6 @@ android {
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField("String", "BASE_URL", "\"http://{username}.tumblr.com/api/read\"")
-        buildConfigField("String", "API_KEY", "\"Default\"")
     }
     buildTypes {
         release {

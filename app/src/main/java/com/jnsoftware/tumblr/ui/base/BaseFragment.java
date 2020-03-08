@@ -5,7 +5,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 
-import com.jnsoftware.tumblr.di.component.ActivityComponent;
+import com.jnsoftware.tumblr.dataInterface.component.ActivityComponent;
 import com.jnsoftware.tumblr.utils.CommonUtils;
 
 import androidx.annotation.Nullable;
