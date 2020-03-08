@@ -4,15 +4,9 @@ package com.jnsoftware.tumblr.dataInterface.component;
 import com.jnsoftware.tumblr.data.DataManager;
 import com.jnsoftware.tumblr.dataInterface.module.ActivityModule;
 import com.jnsoftware.tumblr.dataInterface.module.ActivityModule_ProvideCompositeDisposableFactory;
-import com.jnsoftware.tumblr.dataInterface.module.ActivityModule_ProvideLoginPresenterFactory;
 import com.jnsoftware.tumblr.dataInterface.module.ActivityModule_ProvideMainPresenterFactory;
 import com.jnsoftware.tumblr.dataInterface.module.ActivityModule_ProvideRssAdapterFactory;
 import com.jnsoftware.tumblr.dataInterface.module.ActivityModule_ProvideSchedulerProviderFactory;
-import com.jnsoftware.tumblr.ui.login.LoginActivity;
-import com.jnsoftware.tumblr.ui.login.LoginActivity_MembersInjector;
-import com.jnsoftware.tumblr.ui.login.LoginMvpPresenter;
-import com.jnsoftware.tumblr.ui.login.LoginMvpView;
-import com.jnsoftware.tumblr.ui.login.LoginPresenter_Factory;
 import com.jnsoftware.tumblr.ui.main.MainActivity;
 import com.jnsoftware.tumblr.ui.main.MainActivity_MembersInjector;
 import com.jnsoftware.tumblr.ui.main.MainMvpPresenter;
@@ -25,16 +19,12 @@ import javax.inject.Provider;
 public final class DaggerActivityComponent implements ActivityComponent {
   private ActivityModule activityModule;
 
-  private com_jnsoftware_tumblr_di_component_ApplicationComponent_getDataManager
+  private com_jnsoftware_tumblr_dataInterface_component_ApplicationComponent_getDataManager
       getDataManagerProvider;
 
   private ActivityModule_ProvideSchedulerProviderFactory provideSchedulerProvider;
 
   private ActivityModule_ProvideCompositeDisposableFactory provideCompositeDisposableProvider;
-
-  private LoginPresenter_Factory loginPresenterProvider;
-
-  private Provider<LoginMvpPresenter<LoginMvpView>> provideLoginPresenterProvider;
 
   private MainPresenter_Factory mainPresenterProvider;
 
@@ -51,19 +41,12 @@ public final class DaggerActivityComponent implements ActivityComponent {
   @SuppressWarnings("unchecked")
   private void initialize(final Builder builder) {
     this.getDataManagerProvider =
-        new com_jnsoftware_tumblr_di_component_ApplicationComponent_getDataManager(
+        new com_jnsoftware_tumblr_dataInterface_component_ApplicationComponent_getDataManager(
             builder.applicationComponent);
     this.provideSchedulerProvider =
         ActivityModule_ProvideSchedulerProviderFactory.create(builder.activityModule);
     this.provideCompositeDisposableProvider =
         ActivityModule_ProvideCompositeDisposableFactory.create(builder.activityModule);
-    this.loginPresenterProvider =
-        LoginPresenter_Factory.create(
-            getDataManagerProvider, provideSchedulerProvider, provideCompositeDisposableProvider);
-    this.provideLoginPresenterProvider =
-        DoubleCheck.provider(
-            ActivityModule_ProvideLoginPresenterFactory.create(
-                builder.activityModule, loginPresenterProvider));
     this.mainPresenterProvider =
         MainPresenter_Factory.create(
             getDataManagerProvider, provideSchedulerProvider, provideCompositeDisposableProvider);
@@ -75,18 +58,8 @@ public final class DaggerActivityComponent implements ActivityComponent {
   }
 
   @Override
-  public void inject(LoginActivity loginActivity) {
-    injectLoginActivity(loginActivity);
-  }
-
-  @Override
   public void inject(MainActivity mainActivity) {
     injectMainActivity(mainActivity);
-  }
-
-  private LoginActivity injectLoginActivity(LoginActivity instance) {
-    LoginActivity_MembersInjector.injectMPresenter(instance, provideLoginPresenterProvider.get());
-    return instance;
   }
 
   private MainActivity injectMainActivity(MainActivity instance) {
@@ -125,11 +98,12 @@ public final class DaggerActivityComponent implements ActivityComponent {
     }
   }
 
-  private static class com_jnsoftware_tumblr_di_component_ApplicationComponent_getDataManager
+  private static
+  class com_jnsoftware_tumblr_dataInterface_component_ApplicationComponent_getDataManager
       implements Provider<DataManager> {
     private final ApplicationComponent applicationComponent;
 
-    com_jnsoftware_tumblr_di_component_ApplicationComponent_getDataManager(
+    com_jnsoftware_tumblr_dataInterface_component_ApplicationComponent_getDataManager(
         ApplicationComponent applicationComponent) {
       this.applicationComponent = applicationComponent;
     }

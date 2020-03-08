@@ -2,15 +2,11 @@ package com.jnsoftware.tumblr.data;
 
 import android.content.Context;
 
-import com.jnsoftware.tumblr.data.db.AppDatabase;
-import com.jnsoftware.tumblr.data.db.model.User;
 import com.jnsoftware.tumblr.data.network.RestApiHelper;
 import com.jnsoftware.tumblr.data.network.pojo.FeedItem;
-import com.jnsoftware.tumblr.data.network.pojo.LoginRequest;
 import com.jnsoftware.tumblr.data.network.pojo.UserProfile;
 import com.jnsoftware.tumblr.data.network.pojo.WrapperResponse;
 import com.jnsoftware.tumblr.data.prefs.PreferencesHelper;
-import com.jnsoftware.tumblr.data.utils.LoggedInMode;
 import com.jnsoftware.tumblr.dataInterface.ApplicationContext;
 
 import java.util.List;
@@ -24,85 +20,22 @@ public class BaseDataManager implements DataManager {
 
 
     private final Context mContext;
-    private final AppDatabase mDatabase;
     private final PreferencesHelper mPreferencesHelper;
     private final RestApiHelper mApiHelper;
 
     @Inject
     public BaseDataManager(@ApplicationContext Context context,
-                           AppDatabase database,
                            PreferencesHelper preferencesHelper,
                            RestApiHelper apiHelper) {
         mContext = context;
-        mDatabase = database;
         mPreferencesHelper = preferencesHelper;
         mApiHelper = apiHelper;
     }
 
     @Override
-    public void updateApiHeader(Long userId, String accessToken) {
-
-    }
-
-    @Override
-    public void setUserLoggedOut() {
-        logoutUser();
-    }
-
-    @Override
-    public void updateUserInfo(String accessToken, Long userId, LoggedInMode loggedInMode, String userName, String email, String profilePicPath) {
-        mPreferencesHelper.setAccessToken(accessToken);
-        mPreferencesHelper.setUserId(userId);
-        mPreferencesHelper.setUserLoggedIn(loggedInMode);
-        mPreferencesHelper.setUserName(userName);
-        mPreferencesHelper.setUserEmail(email);
-        mPreferencesHelper.setUserProfilePicUrl(profilePicPath);
-    }
-
-    @Override
-    public List<User> getAll() {
-        return mDatabase.userDao().getAll();
-    }
-
-    @Override
-    public void insertUser(User mUser) {
-        mDatabase.userDao().insertUser(mUser);
-    }
-
-    @Override
-    public void insertAllUser(User... mUsersList) {
-        mDatabase.userDao().insertAllUser(mUsersList);
-    }
-
-    @Override
-    public void deleteUser(User mUser) {
-        mDatabase.userDao().deleteUser(mUser);
-    }
-
-    @Override
-    public void updateUser(User mUser) {
-
-    }
-
-
-    @Override
-    public User getUserById(int uId) {
-        return mDatabase.userDao().getUserById(uId);
-    }
-
-    @Override
-    public List<User> loadAllByIds(int[] userIds) {
-        return mDatabase.userDao().loadAllByIds(userIds);
-    }
-
-    @Override
-    public User findByName(String first, String last) {
-        return mDatabase.userDao().findByName(first, last);
-    }
-
-    @Override
-    public Single<WrapperResponse<UserProfile>> doLoginApiCall(LoginRequest request) {
-        return mApiHelper.doLoginApiCall(request);
+    public void updateUserInfo(String userName, String profilePicPath) {
+        mPreferencesHelper.setLastSearchedUserName(userName);
+        mPreferencesHelper.setLastSearchedUserProfilePicUrl(profilePicPath);
     }
 
     @Override
@@ -111,83 +44,23 @@ public class BaseDataManager implements DataManager {
     }
 
     @Override
-    public int getUserLoggedInMode() {
-        return mPreferencesHelper.getUserLoggedInMode();
+    public String getLastSearchedUserName() {
+        return mPreferencesHelper.getLastSearchedUserName();
     }
 
     @Override
-    public void setUserLoggedIn(LoggedInMode mode) {
-        mPreferencesHelper.setUserLoggedIn(mode);
+    public void setLastSearchedUserName(String userId) {
+        mPreferencesHelper.setLastSearchedUserName(userId);
     }
 
     @Override
-    public Long getUserId() {
-        return mPreferencesHelper.getUserId();
+    public String getLastSearchedUserProfilePicUrl() {
+        return mPreferencesHelper.getLastSearchedUserProfilePicUrl();
     }
 
     @Override
-    public void setUserId(Long userId) {
-        mPreferencesHelper.setUserId(userId);
-    }
-
-    @Override
-    public String getUserName() {
-        return mPreferencesHelper.getUserName();
-    }
-
-    @Override
-    public void setUserName(String userName) {
-        mPreferencesHelper.setUserName(userName);
-    }
-
-    @Override
-    public String getUserEmail() {
-        return mPreferencesHelper.getUserEmail();
-    }
-
-    @Override
-    public void setUserEmail(String email) {
-        mPreferencesHelper.setUserEmail(email);
-    }
-
-    @Override
-    public String getUserProfilePicUrl() {
-        return mPreferencesHelper.getUserProfilePicUrl();
-    }
-
-    @Override
-    public void setUserProfilePicUrl(String profilePicUrl) {
-        mPreferencesHelper.setUserProfilePicUrl(profilePicUrl);
-    }
-
-    @Override
-    public String getAccessToken() {
-        return mPreferencesHelper.getAccessToken();
-    }
-
-    @Override
-    public void setAccessToken(String accessToken) {
-        mPreferencesHelper.getAccessToken();
-    }
-
-    @Override
-    public String getUserMobile() {
-        return mPreferencesHelper.getUserMobile();
-    }
-
-    @Override
-    public void setUserMobile(String mobileNumber) {
-        mPreferencesHelper.setUserMobile(mobileNumber);
-    }
-
-    @Override
-    public boolean isCoachMarkView() {
-        return mPreferencesHelper.isCoachMarkView();
-    }
-
-    @Override
-    public void setCoachMarkView(boolean isShowCoachMark) {
-        mPreferencesHelper.setCoachMarkView(isShowCoachMark);
+    public void setLastSearchedUserProfilePicUrl(String profilePicUrl) {
+        mPreferencesHelper.setLastSearchedUserProfilePicUrl(profilePicUrl);
     }
 
     @Override
@@ -197,11 +70,6 @@ public class BaseDataManager implements DataManager {
 
     @Override
     public void setFirstTime(boolean firstTime) {
-        mPreferencesHelper.setCoachMarkView(firstTime);
-    }
-
-    @Override
-    public void logoutUser() {
-        mPreferencesHelper.logoutUser();
+        mPreferencesHelper.setFirstTime(firstTime);
     }
 }

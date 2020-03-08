@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [com.google.android.material:material:1.2.0-alpha05] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\2dfacce0be1cfee478b941995f3b252e\material-1.2.0-alpha05\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.2.0-alpha03] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\dc079ff0976c14d261443f3e99942987\appcompat-1.2.0-alpha03\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
@@ -38,22 +38,22 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\jan\.gradle\
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\80494d026c905f06e4c8b45b3569cb2d\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\c4e2469658fdd8801a5306110b0915fc\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\257179ec940acce9d9b9b9069652d215\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:4:5-36
 		INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml
 		INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml
-		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml
-		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:11-69
@@ -66,7 +66,7 @@ ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:7:5-66
 	android:name
 		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:7:22-64
 application
-ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:9:5-31:19
+ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:9:5-28:19
 MERGED from [com.google.android.material:material:1.2.0-alpha05] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\2dfacce0be1cfee478b941995f3b252e\material-1.2.0-alpha05\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.0-alpha05] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\2dfacce0be1cfee478b941995f3b252e\material-1.2.0-alpha05\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -100,29 +100,23 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ja
 	android:name
 		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:10:9-66
 activity#com.jnsoftware.tumblr.ui.main.MainActivity
-ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:18:9-20:50
+ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:18:9-27:20
 	android:label
-		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:20:13-47
+		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:20:13-45
+	android:theme
+		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:21:13-56
 	android:name
 		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:19:13-70
-activity#com.jnsoftware.tumblr.ui.login.LoginActivity
-ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:21:9-30:20
-	android:label
-		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:23:13-45
-	android:theme
-		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:24:13-56
-	android:name
-		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:22:13-72
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:25:27-74
 uses-sdk
 INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml

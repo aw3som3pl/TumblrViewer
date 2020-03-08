@@ -5,7 +5,6 @@ import android.app.Application;
 import android.content.Context;
 import com.jnsoftware.tumblr.data.BaseDataManager_Factory;
 import com.jnsoftware.tumblr.data.DataManager;
-import com.jnsoftware.tumblr.data.db.AppDatabase;
 import com.jnsoftware.tumblr.data.network.RestApiHelper;
 import com.jnsoftware.tumblr.data.network.RestApiManager;
 import com.jnsoftware.tumblr.data.network.RestApiManager_Factory;
@@ -13,7 +12,6 @@ import com.jnsoftware.tumblr.data.prefs.PreferencesHelper;
 import com.jnsoftware.tumblr.data.prefs.PreferencesManager_Factory;
 import com.jnsoftware.tumblr.dataInterface.module.ApplicationModule;
 import com.jnsoftware.tumblr.dataInterface.module.ApplicationModule_ProvideApiServiceFactory;
-import com.jnsoftware.tumblr.dataInterface.module.ApplicationModule_ProvideAppDatabaseFactory;
 import com.jnsoftware.tumblr.dataInterface.module.ApplicationModule_ProvideApplicationFactory;
 import com.jnsoftware.tumblr.dataInterface.module.ApplicationModule_ProvideContextFactory;
 import com.jnsoftware.tumblr.dataInterface.module.ApplicationModule_ProvideDataManagerFactory;
@@ -29,8 +27,6 @@ public final class DaggerApplicationComponent implements ApplicationComponent {
   private ApplicationModule applicationModule;
 
   private ApplicationModule_ProvideContextFactory provideContextProvider;
-
-  private Provider<AppDatabase> provideAppDatabaseProvider;
 
   private ApplicationModule_ProvidePreferenceNameFactory providePreferenceNameProvider;
 
@@ -61,9 +57,6 @@ public final class DaggerApplicationComponent implements ApplicationComponent {
     this.applicationModule = builder.applicationModule;
     this.provideContextProvider =
         ApplicationModule_ProvideContextFactory.create(builder.applicationModule);
-    this.provideAppDatabaseProvider =
-        DoubleCheck.provider(
-            ApplicationModule_ProvideAppDatabaseFactory.create(builder.applicationModule));
     this.providePreferenceNameProvider =
         ApplicationModule_ProvidePreferenceNameFactory.create(builder.applicationModule);
     this.preferencesManagerProvider =
@@ -82,10 +75,7 @@ public final class DaggerApplicationComponent implements ApplicationComponent {
                 builder.applicationModule, restApiManagerProvider));
     this.baseDataManagerProvider =
         BaseDataManager_Factory.create(
-            provideContextProvider,
-            provideAppDatabaseProvider,
-            providePreferencesHelperProvider,
-            provideRestApiHelperProvider);
+            provideContextProvider, providePreferencesHelperProvider, provideRestApiHelperProvider);
     this.provideDataManagerProvider =
         DoubleCheck.provider(
             ApplicationModule_ProvideDataManagerFactory.create(

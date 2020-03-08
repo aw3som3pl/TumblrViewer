@@ -161,10 +161,6 @@ public abstract class BaseActivity extends AppCompatActivity implements MvpView,
     public void openActivityOnTokenExpire() {
     }
 
-    @Override
-    public void openLoginActivity() {
-    }
-
     protected abstract void setUp();
 }
 

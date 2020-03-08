@@ -1,7 +1,6 @@
 package com.jnsoftware.tumblr.data.network;
 
 import com.jnsoftware.tumblr.data.network.pojo.FeedItem;
-import com.jnsoftware.tumblr.data.network.pojo.LoginRequest;
 import com.jnsoftware.tumblr.data.network.pojo.UserProfile;
 import com.jnsoftware.tumblr.data.network.pojo.WrapperResponse;
 
@@ -22,8 +21,4 @@ public interface NetworkService {
      */
     @GET("feed.json")
     Single<WrapperResponse<List<FeedItem>>> getFeedList();
-
-
-    @POST("login")
-    Single<WrapperResponse<UserProfile>> doLoginApiCall(@Body LoginRequest mRequest);
 }

@@ -120,13 +120,6 @@ public abstract class BaseFragment extends Fragment implements MvpView {
         }
     }
 
-    @Override
-    public void openLoginActivity() {
-        if (mActivity != null) {
-            mActivity.openLoginActivity();
-        }
-    }
-
     public ActivityComponent getActivityComponent() {
         if (mActivity != null) {
             return mActivity.getActivityComponent();

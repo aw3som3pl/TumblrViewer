@@ -1,7 +1,6 @@
 package com.jnsoftware.tumblr.data.network;
 
 import com.jnsoftware.tumblr.data.network.pojo.FeedItem;
-import com.jnsoftware.tumblr.data.network.pojo.LoginRequest;
 import com.jnsoftware.tumblr.data.network.pojo.UserProfile;
 import com.jnsoftware.tumblr.data.network.pojo.WrapperResponse;
 
@@ -20,11 +19,6 @@ public class RestApiManager implements RestApiHelper {
     @Inject
     public RestApiManager(NetworkService apiService) {
         mService = apiService;
-    }
-
-    @Override
-    public Single<WrapperResponse<UserProfile>> doLoginApiCall(LoginRequest request) {
-        return mService.doLoginApiCall(request);
     }
 
     @Override

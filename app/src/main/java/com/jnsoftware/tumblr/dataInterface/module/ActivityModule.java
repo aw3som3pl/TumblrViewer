@@ -4,9 +4,6 @@ import android.content.Context;
 
 import com.jnsoftware.tumblr.dataInterface.ActivityContext;
 import com.jnsoftware.tumblr.dataInterface.PerActivity;
-import com.jnsoftware.tumblr.ui.login.LoginMvpPresenter;
-import com.jnsoftware.tumblr.ui.login.LoginMvpView;
-import com.jnsoftware.tumblr.ui.login.LoginPresenter;
 import com.jnsoftware.tumblr.ui.main.MainMvpPresenter;
 import com.jnsoftware.tumblr.ui.main.MainMvpView;
 import com.jnsoftware.tumblr.ui.main.MainPresenter;
@@ -56,12 +53,6 @@ public class ActivityModule {
         return new AppSchedulerProvider();
     }
 
-
-    @Provides
-    @PerActivity
-    LoginMvpPresenter<LoginMvpView> provideLoginPresenter(LoginPresenter<LoginMvpView> presenter) {
-        return presenter;
-    }
 
 
     @Provides

@@ -1,43 +1,17 @@
 package com.jnsoftware.tumblr.data.prefs;
 
-import com.jnsoftware.tumblr.data.utils.LoggedInMode;
-
 public interface PreferencesHelper {
-    int getUserLoggedInMode();
 
-    void setUserLoggedIn(LoggedInMode mode);
+    String getLastSearchedUserName();
 
-    Long getUserId();
+    void setLastSearchedUserName(String userName);
 
-    void setUserId(Long userId);
+    String getLastSearchedUserProfilePicUrl();
 
-    String getUserName();
-
-    void setUserName(String userName);
-
-    String getUserEmail();
-
-    void setUserEmail(String email);
-
-    String getUserProfilePicUrl();
-
-    void setUserProfilePicUrl(String profilePicUrl);
-
-    String getAccessToken();
-
-    void setAccessToken(String accessToken);
-
-    String getUserMobile();
-
-    void setUserMobile(String mobileNumber);
-
-    boolean isCoachMarkView();
-
-    void setCoachMarkView(boolean coachMark);
+    void setLastSearchedUserProfilePicUrl(String profilePicUrl);
 
     boolean isFirstTime();
 
     void setFirstTime(boolean firstTime);
 
-    void logoutUser();
 }

@@ -14,8 +14,6 @@ public interface MvpView {
 
     void openActivityOnTokenExpire();
 
-    void openLoginActivity();
-
     void onError(@StringRes int resId);
 
     void onError(String message);

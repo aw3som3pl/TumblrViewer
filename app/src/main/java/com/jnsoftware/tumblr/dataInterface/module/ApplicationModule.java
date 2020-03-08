@@ -6,15 +6,12 @@ import android.content.Context;
 import com.jnsoftware.tumblr.BuildConfig;
 import com.jnsoftware.tumblr.data.BaseDataManager;
 import com.jnsoftware.tumblr.data.DataManager;
-import com.jnsoftware.tumblr.data.db.AppDatabase;
 import com.jnsoftware.tumblr.data.network.NetworkService;
 import com.jnsoftware.tumblr.data.network.RestApiHelper;
 import com.jnsoftware.tumblr.data.network.RestApiManager;
 import com.jnsoftware.tumblr.data.prefs.PreferencesHelper;
 import com.jnsoftware.tumblr.data.prefs.PreferencesManager;
-import com.jnsoftware.tumblr.dataInterface.ApiInfo;
 import com.jnsoftware.tumblr.dataInterface.ApplicationContext;
-import com.jnsoftware.tumblr.dataInterface.DatabaseInfo;
 import com.jnsoftware.tumblr.dataInterface.PreferenceInfo;
 import com.jnsoftware.tumblr.root.AppConstant;
 
@@ -55,18 +52,6 @@ public class ApplicationModule {
     }
 
     @Provides
-    @DatabaseInfo
-    String provideDatabaseName() {
-        return AppConstant.DB_NAME;
-    }
-
-    @Provides
-    @ApiInfo
-    String provideApiKey() {
-        return BuildConfig.API_KEY;
-    }
-
-    @Provides
     @PreferenceInfo
     String providePreferenceName() {
         return AppConstant.PREF_NAME;
@@ -76,13 +61,6 @@ public class ApplicationModule {
     @Singleton
     DataManager provideDataManager(BaseDataManager mDataManager) {
         return mDataManager;
-    }
-
-
-    @Provides
-    @Singleton
-    AppDatabase provideAppDatabase() {
-        return AppDatabase.getDatabaseInstance(mApplication);
     }
 
     @Provides
