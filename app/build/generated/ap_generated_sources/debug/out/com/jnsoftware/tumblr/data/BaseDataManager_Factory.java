@@ -2,7 +2,7 @@
 package com.jnsoftware.tumblr.data;
 
 import android.content.Context;
-import com.jnsoftware.tumblr.data.network.RestApiHelper;
+import com.jnsoftware.tumblr.data.network.rest.RestApiHelper;
 import com.jnsoftware.tumblr.data.prefs.PreferencesHelper;
 import dagger.internal.Factory;
 import javax.inject.Provider;

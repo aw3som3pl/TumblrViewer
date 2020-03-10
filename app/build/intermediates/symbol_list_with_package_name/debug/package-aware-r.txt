@@ -1621,7 +1621,6 @@ id fixed
 id flex_end
 id flex_start
 id floating
-id footerLayout
 id forever
 id ghost_view
 id ghost_view_holder
@@ -1685,7 +1684,6 @@ id never
 id noScroll
 id none
 id normal
-id notesCount
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -1791,7 +1789,6 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
-id textview1
 id time
 id title
 id titleDividerNoCustom

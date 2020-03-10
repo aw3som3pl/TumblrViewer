@@ -46,6 +46,8 @@ public class TumblrPost {
         private String regularTitle;
         private String regularBody;
 
+        public Regular(){}
+
         public Regular(String regularTitle, String regularBody) {
             this.regularTitle = regularTitle;
             this.regularBody = regularBody;
@@ -72,6 +74,8 @@ public class TumblrPost {
         private String linkTitle;
         private String linkDescription;
         private String linkURL;
+
+        public Link(){}
 
         public Link(String linkTitle, String linkURL, String linkDescription) {
             this.linkTitle = linkTitle;
@@ -108,6 +112,8 @@ public class TumblrPost {
         private String quoteText;
         private String quoteSource;
 
+        public Quote(){}
+
         public Quote(String quoteText, String quoteSource) {
             this.quoteText = quoteText;
             this.quoteSource = quoteSource;
@@ -135,6 +141,8 @@ public class TumblrPost {
         private String photoCaption;
         private String mainPhotoURL;
         private List<String> photoUrlList;
+
+        public Photo(){}
 
         public Photo(String photoCaption, String mainPhotoURL, List<String> photoUrlList) {
             this.photoCaption = photoCaption;
@@ -170,75 +178,42 @@ public class TumblrPost {
     }
 
     public static class Conversation{
-        private String conversationTitle;
-        private String conversationText;
-        private List<ConversationLine> conversationLineList;
+        private List<String> conversationLineList;
 
-        public Conversation(String conversationTitle, String conversationText, List<ConversationLine> conversationLineList) {
-            this.conversationTitle = conversationTitle;
-            this.conversationText = conversationText;
+        public Conversation(){}
+
+        public Conversation(List<String> conversationLineList) {
             this.conversationLineList = conversationLineList;
         }
 
-        public String getConversationTitle() {
-            return conversationTitle;
-        }
-
-        public void setConversationTitle(String conversationTitle) {
-            this.conversationTitle = conversationTitle;
-        }
-
-        public String getConversationText() {
-            return conversationText;
-        }
-
-        public void setConversationText(String conversationText) {
-            this.conversationText = conversationText;
-        }
-
-        public List<ConversationLine> getConversationLineList() {
+        public List<String> getConversationLineList() {
             return conversationLineList;
         }
 
-        public void setConversationLineList(List<ConversationLine> conversationLineList) {
+        public void setConversationLineList(List<String> conversationLineList) {
             this.conversationLineList = conversationLineList;
         }
-    }
-
-    public static class ConversationLine {
-        private String name;
-        private String text;
-
-        public ConversationLine(String name, String text) {
-            this.name = name;
-            this.text = text;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        public String getText() {
-            return text;
-        }
-
-        public void setText(String text) {
-            this.text = text;
-        }
-
     }
 
     public static class Video{
         private String videoCaption;
         private String videoSourceURL;
+        private String videoThumbnailURL;
 
-        public Video(String videoCaption, String videoSourceURL) {
+        public Video(){}
+
+        public Video(String videoCaption, String videoSourceURL, String videoThumbnailURL) {
             this.videoCaption = videoCaption;
             this.videoSourceURL = videoSourceURL;
+            this.videoThumbnailURL = videoThumbnailURL;
+        }
+
+        public String getVideoThumbnailUrl() {
+            return videoThumbnailURL;
+        }
+
+        public void setVideoThumbnailUrl(String videoThumbnail) {
+            this.videoThumbnailURL = videoThumbnail;
         }
 
         public String getVideoCaption() {
@@ -267,6 +242,8 @@ public class TumblrPost {
         private String year;
         private String track;
         private String title;
+
+        public Audio(){}
 
         public Audio(String audioCaption, String audioURL, String artist, String album, String year, String track, String title) {
             this.audioCaption = audioCaption;
@@ -336,12 +313,20 @@ public class TumblrPost {
     }
 
     public static class Answer{
-        //Not possible due to missing question origin
+        //Not possible due to missing question origina
     }
 
-    public TumblrPost(String userName, String tumblrPostURL, String creationTimestamp) {
+    public TumblrPost(String tumblrPostURL, String creationTimestamp){
+        this.tumblrPostURL = tumblrPostURL;
+        this.creationTimestamp = creationTimestamp;
+        tagList = new ArrayList<>();
+    }
+
+    public TumblrPost(String userName, String tumblrPostURL, String accountURL, String avatarURL, String creationTimestamp) {
         this.userName = userName;
         this.tumblrPostURL = tumblrPostURL;
+        this.accountURL = accountURL;
+        this.avatarURL = avatarURL;
         this.creationTimestamp = creationTimestamp;
         tagList = new ArrayList<>();
     }

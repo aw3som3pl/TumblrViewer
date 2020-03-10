@@ -1,7 +1,6 @@
 package com.jnsoftware.tumblr.ui.base;
 
 import com.jnsoftware.tumblr.data.DataManager;
-import com.jnsoftware.tumblr.data.network.WrapperError;
 import com.jnsoftware.tumblr.utils.rx.SchedulerProvider;
 import com.google.gson.JsonSyntaxException;
 
@@ -90,12 +89,6 @@ public class BasePresenter<V extends MvpView> implements MvpPresenter<V> {
                     mMvpView.onError(error.getLocalizedMessage());
 
             }
-        } else if (error instanceof WrapperError) {
-            mMvpView.onError(error.getMessage());
-        } else if (error instanceof JsonSyntaxException) {
-            mMvpView.onError("Something Went Wrong API is not responding properly!");
-        } else {
-            mMvpView.onError(error.getMessage());
         }
 
     }

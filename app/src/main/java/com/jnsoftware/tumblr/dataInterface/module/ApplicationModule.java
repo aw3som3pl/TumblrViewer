@@ -6,9 +6,9 @@ import android.content.Context;
 import com.jnsoftware.tumblr.BuildConfig;
 import com.jnsoftware.tumblr.data.BaseDataManager;
 import com.jnsoftware.tumblr.data.DataManager;
-import com.jnsoftware.tumblr.data.network.NetworkService;
-import com.jnsoftware.tumblr.data.network.RestApiHelper;
-import com.jnsoftware.tumblr.data.network.RestApiManager;
+import com.jnsoftware.tumblr.data.network.rest.NetworkService;
+import com.jnsoftware.tumblr.data.network.rest.RestApiHelper;
+import com.jnsoftware.tumblr.data.network.rest.RestApiManager;
 import com.jnsoftware.tumblr.data.prefs.PreferencesHelper;
 import com.jnsoftware.tumblr.data.prefs.PreferencesManager;
 import com.jnsoftware.tumblr.dataInterface.ApplicationContext;
@@ -117,4 +117,5 @@ public class ApplicationModule {
     public NetworkService provideApiService() {
         return provideRetrofit(BuildConfig.BASE_URL, provideClient()).create(NetworkService.class);
     }
+
 }

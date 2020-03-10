@@ -63,6 +63,9 @@ dependencies {
     implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
     implementation "com.google.code.gson:gson:$gsonVersion"
 
+    //HTML parsing
+    implementation "org.jsoup:jsoup:$rootProject.jsoupVersion"
+
     //http logging
     implementation 'com.squareup.okhttp3:logging-interceptor:3.9.1'
 
