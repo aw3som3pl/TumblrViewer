@@ -8,7 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.jnsoftware.tumblr.R;
-import com.jnsoftware.tumblr.data.network.pojo.FeedItem;
+import com.jnsoftware.tumblr.data.network.pojo.TumblrPost;
 import com.jnsoftware.tumblr.ui.base.BaseActivity;
 import com.jnsoftware.tumblr.utils.DividerItemDecoration;
 
@@ -48,7 +48,7 @@ public class MainActivity extends BaseActivity implements MainMvpView, RssAdapte
 
     @Override
     protected void setUp() {
-        mRecyclerView = findViewById(R.id.recyclerViewFeed);
+        mRecyclerView = findViewById(R.id.tumblrFeed);
         mLayoutManager = new LinearLayoutManager(this);
         mLayoutManager.setOrientation(RecyclerView.VERTICAL);
         Drawable dividerDrawable = ContextCompat.getDrawable(this, R.drawable.divider_drawable);
@@ -80,7 +80,7 @@ public class MainActivity extends BaseActivity implements MainMvpView, RssAdapte
     }
 
     @Override
-    public void updateFeed(List<FeedItem> feedItemList) {
+    public void updateFeed(List<TumblrPost> feedItemList) {
         mRecyclerView.setAdapter(mRssAdapter);
         mRssAdapter.addItems(feedItemList);
     }

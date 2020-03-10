@@ -23,7 +23,7 @@ public class MainPresenter<V extends MainMvpView> extends BasePresenter<V>
     public void onViewPrepared() {
         getMvpView().showLoading();
         getCompositeDisposable().add(getDataManager()
-                        .getFeedList()
+                        .getTumblrPostList("demo")
                         .subscribeOn(getSchedulerProvider().io())
                         .observeOn(getSchedulerProvider().ui())
                         .subscribe(response -> {
@@ -34,7 +34,7 @@ public class MainPresenter<V extends MainMvpView> extends BasePresenter<V>
                                 /**
                                  * Update view here
                                  */
-                                getMvpView().updateFeed(response.getData());
+                               // getMvpView().updateFeed(response.getData());
                         }, error -> {
                             if (!isViewAttached()) {
                                 return;

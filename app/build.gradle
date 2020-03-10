@@ -9,7 +9,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField("String", "BASE_URL", "\"http://{username}.tumblr.com/api/read\"")
+        buildConfigField("String", "BASE_URL", "\"http://demo.tumblr.com/api/read/\"")
     }
     buildTypes {
         release {
@@ -28,9 +28,11 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0-alpha03'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     implementation 'com.google.android.material:material:1.2.0-alpha05'
-    testImplementation 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.13'
+    testImplementation 'com.squareup.okhttp3:mockwebserver:4.4.0'
     androidTestImplementation 'androidx.test:runner:1.3.0-alpha04'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0-alpha04'
+
 
     // reactive
     implementation "io.reactivex.rxjava2:rxjava:$rootProject.rxjava2Version"
@@ -47,6 +49,9 @@ dependencies {
     implementation "com.google.dagger:dagger:$rootProject.dagger2Version"
     annotationProcessor "com.google.dagger:dagger-compiler:$rootProject.dagger2Version"
 
+    //layout
+    implementation "com.google.android:flexbox:$rootProject.flexboxVersion"
+
     // image
     implementation "com.github.bumptech.glide:glide:$glideVersion"
 
@@ -58,13 +63,8 @@ dependencies {
     implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
     implementation "com.google.code.gson:gson:$gsonVersion"
 
-    // Room
-    implementation 'androidx.room:room-runtime:2.2.4'
-    annotationProcessor 'androidx.room:room-compiler:2.2.4'
-
     //http logging
     implementation 'com.squareup.okhttp3:logging-interceptor:3.9.1'
-
 
 
 }

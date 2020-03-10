@@ -8,5 +8,4 @@ public class AppConstant {
 
     public static final String SHARED_PREF = "tumblrApp_pref_default";
     public static final String PREF_NAME = "tumblrApp_pref";
-    public static final String DB_NAME = "tumblrApp_db";
 }

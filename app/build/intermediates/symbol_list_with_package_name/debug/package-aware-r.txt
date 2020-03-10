@@ -84,6 +84,8 @@ attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
 attr alertDialogStyle
 attr alertDialogTheme
+attr alignContent
+attr alignItems
 attr allowStacking
 attr alpha
 attr alphabeticModifiers
@@ -273,6 +275,9 @@ attr dialogPreferredPadding
 attr dialogTheme
 attr displayOptions
 attr divider
+attr dividerDrawable
+attr dividerDrawableHorizontal
+attr dividerDrawableVertical
 attr dividerHorizontal
 attr dividerPadding
 attr dividerVertical
@@ -335,6 +340,8 @@ attr fastScrollHorizontalTrackDrawable
 attr fastScrollVerticalThumbDrawable
 attr fastScrollVerticalTrackDrawable
 attr firstBaselineToTopHeight
+attr flexDirection
+attr flexWrap
 attr floatingActionButtonStyle
 attr font
 attr fontFamily
@@ -408,6 +415,7 @@ attr itemTextAppearance
 attr itemTextAppearanceActive
 attr itemTextAppearanceInactive
 attr itemTextColor
+attr justifyContent
 attr keylines
 attr labelBehavior
 attr labelStyle
@@ -415,6 +423,7 @@ attr labelVisibilityMode
 attr lastBaselineToBottomHeight
 attr layout
 attr layoutManager
+attr layout_alignSelf
 attr layout_anchor
 attr layout_anchorGravity
 attr layout_behavior
@@ -464,6 +473,9 @@ attr layout_constraintWidth_percent
 attr layout_dodgeInsetEdges
 attr layout_editor_absoluteX
 attr layout_editor_absoluteY
+attr layout_flexBasisPercent
+attr layout_flexGrow
+attr layout_flexShrink
 attr layout_goneMarginBottom
 attr layout_goneMarginEnd
 attr layout_goneMarginLeft
@@ -472,9 +484,15 @@ attr layout_goneMarginStart
 attr layout_goneMarginTop
 attr layout_insetEdge
 attr layout_keyline
+attr layout_maxHeight
+attr layout_maxWidth
+attr layout_minHeight
+attr layout_minWidth
 attr layout_optimizationLevel
+attr layout_order
 attr layout_scrollFlags
 attr layout_scrollInterpolator
+attr layout_wrapBefore
 attr liftOnScroll
 attr liftOnScrollTargetViewId
 attr lineHeight
@@ -520,6 +538,7 @@ attr maxActionInlineWidth
 attr maxButtonHeight
 attr maxCharacterCount
 attr maxImageSize
+attr maxLine
 attr maxLines
 attr measureWithLargestChild
 attr menu
@@ -587,6 +606,9 @@ attr shapeAppearanceMediumComponent
 attr shapeAppearanceOverlay
 attr shapeAppearanceSmallComponent
 attr showAsAction
+attr showDivider
+attr showDividerHorizontal
+attr showDividerVertical
 attr showDividers
 attr showMotionSpec
 attr showText
@@ -1052,6 +1074,7 @@ dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
+dimen app_bar_height
 dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
@@ -1310,6 +1333,7 @@ dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
 dimen test_mtrl_calendar_day_cornerSize
+dimen text_margin
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -1421,6 +1445,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable divider_drawable
+drawable field_white
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
 drawable ic_edit_black_24dp
@@ -1434,6 +1459,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_search
 drawable logo_icon
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
@@ -1457,6 +1483,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable round_corners_15
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1530,10 +1557,10 @@ id always
 id async
 id auto
 id barrier
+id baseline
 id beginning
 id blocking
 id bottom
-id btn_login
 id buttonPanel
 id buttonRetry
 id cancel_button
@@ -1553,9 +1580,12 @@ id clear_text
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id column
+id column_reverse
 id confirm_button
 id container
 id content
+id contentLayout
 id contentPanel
 id coordinator
 id custom
@@ -1588,7 +1618,10 @@ id fill_vertical
 id filled
 id fitToContents
 id fixed
+id flex_end
+id flex_start
 id floating
+id footerLayout
 id forever
 id ghost_view
 id ghost_view_holder
@@ -1605,8 +1638,6 @@ id ifRoom
 id image
 id imageViewThumbnail
 id info
-id input_email
-id input_password
 id invisible
 id italic
 id item_touch_helper_previous_elevation
@@ -1615,9 +1646,9 @@ id largeLabel
 id left
 id line1
 id line3
-id link_signup
 id listMode
 id list_item
+id mainLayout
 id masked
 id message
 id middle
@@ -1654,9 +1685,11 @@ id never
 id noScroll
 id none
 id normal
+id notesCount
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id nowrap
 id off
 id on
 id outline
@@ -1673,12 +1706,13 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
-id recyclerViewFeed
 id right
 id right_icon
 id right_side
 id rounded
+id row
 id row_index_key
+id row_reverse
 id save_non_transition_alpha
 id save_overlay_view
 id scale
@@ -1688,6 +1722,8 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchButton
+id searchField
 id search_badge
 id search_bar
 id search_button
@@ -1711,6 +1747,9 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id space_around
+id space_between
+id space_evenly
 id spacer
 id split_action_bar
 id spread
@@ -1732,6 +1771,7 @@ id tag_screen_reader_focusable
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id tagsLayout
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id text
@@ -1751,11 +1791,15 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id textview1
 id time
 id title
 id titleDividerNoCustom
 id title_template
+id toolbar
+id toolbarLayout
 id top
+id topBar
 id topPanel
 id touch_outside
 id transition_current_scene
@@ -1763,6 +1807,7 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tumblrFeed
 id tv_message
 id unchecked
 id uniform
@@ -1775,6 +1820,7 @@ id withText
 id withinBounds
 id wrap
 id wrap_content
+id wrap_reverse
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -1835,7 +1881,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_login
 layout activity_main
 layout content_main
 layout custom_dialog
@@ -1856,6 +1901,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout item_empty_view
 layout item_feed
+layout item_post
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -1962,6 +2008,7 @@ string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string input_invalid
+string large_text
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_suffix
@@ -2009,6 +2056,7 @@ string search_menu_title
 string some_error
 string status_bar_notification_info_overflow
 string title_activity_login
+string title_activity_scrolling
 string title_home
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -2743,6 +2791,8 @@ styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_a
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
 styleable ExtendedFloatingActionButton elevation extendMotionSpec hideMotionSpec showMotionSpec shrinkMotionSpec
 styleable ExtendedFloatingActionButton_Behavior_Layout behavior_autoHide behavior_autoShrink
+styleable FlexboxLayout alignContent alignItems dividerDrawable dividerDrawableHorizontal dividerDrawableVertical flexDirection flexWrap justifyContent maxLine showDivider showDividerHorizontal showDividerVertical
+styleable FlexboxLayout_Layout layout_alignSelf layout_flexBasisPercent layout_flexGrow layout_flexShrink layout_maxHeight layout_maxWidth layout_minHeight layout_minWidth layout_order layout_wrapBefore
 styleable FloatingActionButton android_enabled backgroundTint backgroundTintMode borderWidth elevation ensureMinTouchTargetSize fabCustomSize fabSize hideMotionSpec hoveredFocusedTranslationZ maxImageSize pressedTranslationZ rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec useCompatPadding
 styleable FloatingActionButton_Behavior_Layout behavior_autoHide
 styleable FlowLayout itemSpacing lineSpacing

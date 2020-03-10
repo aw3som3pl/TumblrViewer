@@ -1,31 +1,11 @@
 [
     {
-        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_progress_dialog.xml.flat",
-        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\layout\\progress_dialog.xml"
-    },
-    {
-        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_feed.xml.flat",
-        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\layout\\item_feed.xml"
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\drawable\\ic_search.xml"
     },
     {
         "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
         "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
@@ -36,16 +16,8 @@
         "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_empty_view.xml.flat",
-        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\layout\\item_empty_view.xml"
-    },
-    {
-        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
-        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\menu\\menu_main.xml"
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_corners_15.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\drawable\\round_corners_15.xml"
     },
     {
         "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
@@ -58,10 +30,6 @@
     {
         "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_icon.png.flat",
@@ -80,15 +48,59 @@
         "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
         "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_progress_dialog.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_post.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\layout\\item_post.xml"
+    },
+    {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_feed.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\layout\\item_feed.xml"
+    },
+    {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_empty_view.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\layout\\item_empty_view.xml"
+    },
+    {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_field_white.9.png.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\drawable\\field_white.9.png"
+    },
+    {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     }
 ]

@@ -1,15 +1,13 @@
 package com.jnsoftware.tumblr.data.network;
 
-import com.jnsoftware.tumblr.data.network.pojo.FeedItem;
-import com.jnsoftware.tumblr.data.network.pojo.UserProfile;
 import com.jnsoftware.tumblr.data.network.pojo.WrapperResponse;
 
-import java.util.List;
+import java.io.InputStream;
 
 import io.reactivex.Single;
-import retrofit2.http.Body;
+import okhttp3.ResponseBody;
 import retrofit2.http.GET;
-import retrofit2.http.POST;
+import retrofit2.http.Path;
 
 /**
  * Created on : Feb 07, 2020
@@ -19,6 +17,6 @@ public interface NetworkService {
     /**
      * @return Observable feed response
      */
-    @GET("feed.json")
-    Single<WrapperResponse<List<FeedItem>>> getFeedList();
+    @GET("https://{user}.tumblr.com/api/read")
+    Single<WrapperResponse<ResponseBody>> getTumblrPostList(@Path("user") String user);
 }

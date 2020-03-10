@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.jnsoftware.tumblr.R;
-import com.jnsoftware.tumblr.data.network.pojo.FeedItem;
+import com.jnsoftware.tumblr.data.network.pojo.TumblrPost;
 import com.jnsoftware.tumblr.ui.base.BaseViewHolder;
 import com.bumptech.glide.Glide;
 
@@ -28,10 +28,10 @@ public class RssAdapter extends RecyclerView.Adapter<BaseViewHolder> {
     public static final int VIEW_TYPE_NORMAL = 1;
 
     private Callback mCallback;
-    private List<FeedItem> mFeedItemList;
+    private List<TumblrPost> mTumblrPostList;
 
-    public RssAdapter(List<FeedItem> sportList) {
-        mFeedItemList = sportList;
+    public RssAdapter(List<TumblrPost> sportList) {
+        mTumblrPostList = sportList;
     }
 
     public void setCallback(Callback callback) {
@@ -59,7 +59,7 @@ public class RssAdapter extends RecyclerView.Adapter<BaseViewHolder> {
 
     @Override
     public int getItemViewType(int position) {
-        if (mFeedItemList != null && mFeedItemList.size() > 0) {
+        if (mTumblrPostList != null && mTumblrPostList.size() > 0) {
             return VIEW_TYPE_NORMAL;
         } else {
             return VIEW_TYPE_EMPTY;
@@ -68,15 +68,15 @@ public class RssAdapter extends RecyclerView.Adapter<BaseViewHolder> {
 
     @Override
     public int getItemCount() {
-        if (mFeedItemList != null && mFeedItemList.size() > 0) {
-            return mFeedItemList.size();
+        if (mTumblrPostList != null && mTumblrPostList.size() > 0) {
+            return mTumblrPostList.size();
         } else {
             return 1;
         }
     }
 
-    public void addItems(List<FeedItem> sportList) {
-        mFeedItemList.addAll(sportList);
+    public void addItems(List<TumblrPost> postList) {
+        mTumblrPostList.addAll(postList);
         notifyDataSetChanged();
     }
 
@@ -110,39 +110,40 @@ public class RssAdapter extends RecyclerView.Adapter<BaseViewHolder> {
         public void onBind(int position) {
             super.onBind(position);
 
-            final FeedItem mFeedItem = mFeedItemList.get(position);
-
-            if (mFeedItem.getThumbnail() != null) {
+            final TumblrPost mTumblrPost = mTumblrPostList.get(position);
+/*
+            if (mTumblrPost.getThumbnail() != null) {
                 Glide.with(itemView.getContext())
-                        .load(mFeedItem.getThumbnail())
+                        .load(mTumblrPost.getThumbnail())
                         .into(thumbnail);
             }
 
-            if (mFeedItem.getTitle() != null) {
-                titleTextView.setText(mFeedItem.getTitle());
+            if (mTumblrPost.getTitle() != null) {
+                titleTextView.setText(mTumblrPost.getTitle());
             }
 
-            if (mFeedItem.getLink() != null) {
-                linkTextView.setText(mFeedItem.getLink());
+            if (mTumblrPost.getLink() != null) {
+                linkTextView.setText(mTumblrPost.getLink());
             }
 
-            if (mFeedItem.getDescription() != null) {
-                descriptionTextView.setText(mFeedItem.getDescription());
+            if (mTumblrPost.getDescription() != null) {
+                descriptionTextView.setText(mTumblrPost.getDescription());
             }
 
             linkTextView.setOnClickListener(v -> {
-                if (mFeedItem.getLink() != null) {
+                if (mTumblrPost.getLink() != null) {
                     try {
                         Intent intent = new Intent();
                         intent.setAction(Intent.ACTION_VIEW);
                         intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                        intent.setData(Uri.parse(mFeedItem.getLink()));
+                        intent.setData(Uri.parse(mTumblrPost.getLink()));
                         itemView.getContext().startActivity(intent);
                     } catch (Exception e) {
                         Log.e(TAG, "onClick: Image url is not correct");
                     }
                 }
             });
+            */
         }
     }
 

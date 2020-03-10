@@ -3,17 +3,18 @@ package com.jnsoftware.tumblr.data;
 import android.content.Context;
 
 import com.jnsoftware.tumblr.data.network.RestApiHelper;
-import com.jnsoftware.tumblr.data.network.pojo.FeedItem;
-import com.jnsoftware.tumblr.data.network.pojo.UserProfile;
+import com.jnsoftware.tumblr.data.network.pojo.TumblrPost;
 import com.jnsoftware.tumblr.data.network.pojo.WrapperResponse;
 import com.jnsoftware.tumblr.data.prefs.PreferencesHelper;
 import com.jnsoftware.tumblr.dataInterface.ApplicationContext;
 
+import java.io.InputStream;
 import java.util.List;
 
 import javax.inject.Inject;
 
 import io.reactivex.Single;
+import okhttp3.ResponseBody;
 
 public class BaseDataManager implements DataManager {
     private static final String TAG = "BaseDataManager";
@@ -39,8 +40,8 @@ public class BaseDataManager implements DataManager {
     }
 
     @Override
-    public Single<WrapperResponse<List<FeedItem>>> getFeedList() {
-        return mApiHelper.getFeedList();
+    public Single<WrapperResponse<ResponseBody>> getTumblrPostList(String user) {
+        return mApiHelper.getTumblrPostList(user);
     }
 
     @Override
@@ -72,4 +73,5 @@ public class BaseDataManager implements DataManager {
     public void setFirstTime(boolean firstTime) {
         mPreferencesHelper.setFirstTime(firstTime);
     }
+
 }
