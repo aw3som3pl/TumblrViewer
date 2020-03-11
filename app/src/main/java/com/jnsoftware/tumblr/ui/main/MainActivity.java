@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ImageButton;
 import android.widget.SearchView;
 
@@ -14,11 +13,12 @@ import com.jnsoftware.tumblr.data.network.pojo.TumblrPost;
 import com.jnsoftware.tumblr.ui.base.BaseActivity;
 import com.jnsoftware.tumblr.utils.CommonUtils;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.inject.Inject;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
@@ -51,6 +51,9 @@ public class MainActivity extends BaseActivity implements MainMvpView, TumblrFee
         getActivityComponent().inject(this);
         mPresenter.onAttach(MainActivity.this);
 
+        Toolbar myToolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(myToolbar);
+
         setUp();
     }
 
@@ -65,11 +68,9 @@ public class MainActivity extends BaseActivity implements MainMvpView, TumblrFee
         mLayoutManager.setOrientation(RecyclerView.VERTICAL);
         mRecyclerView.setLayoutManager(mLayoutManager);
 
-        searchView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                searchView.setIconified(false);
-            }
+        searchButton.setOnClickListener(view -> {
+            mPresenter.fetchNewTumblrFeedBatch(String.valueOf(searchView.getQuery()));
+            CommonUtils.hideKeyboard(MainActivity.this);
         });
 
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
@@ -89,7 +90,7 @@ public class MainActivity extends BaseActivity implements MainMvpView, TumblrFee
 
         mRecyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
-            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+            public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
                 super.onScrolled(recyclerView, dx, dy);
 
                 swipeRefreshLayout.setEnabled
@@ -97,12 +98,7 @@ public class MainActivity extends BaseActivity implements MainMvpView, TumblrFee
             }
         });
 
-        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                mPresenter.refreshTumblrFeed();
-            }
-        });
+        swipeRefreshLayout.setOnRefreshListener(() -> mPresenter.refreshTumblrFeed());
 
         mPresenter.onViewPrepared();
 
@@ -117,16 +113,11 @@ public class MainActivity extends BaseActivity implements MainMvpView, TumblrFee
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (item.getItemId() == R.id.action_exit) {// User chose the "Settings" item, show the app settings UI...
+            finishAffinity();
             return true;
-        }
-
+        }// If we got here, the user's action was not recognized.
+        // Invoke the superclass to handle it.
         return super.onOptionsItemSelected(item);
     }
 
@@ -143,12 +134,7 @@ public class MainActivity extends BaseActivity implements MainMvpView, TumblrFee
         //mTumblrFeedAdapter.initializeItems(feedItemList);
         swipeRefreshLayout.setRefreshing(false);
 
-        mTumblrFeedAdapter.setOnBottomReachedListener(new OnBottomReachedListener() {
-            @Override
-            public void onBottomReached(int position) {
-                mPresenter.fetchNextTumblrFeedBatch(position);
-            }
-        });
+        mTumblrFeedAdapter.setOnBottomReachedListener(position -> mPresenter.fetchNextTumblrFeedBatch(position));
     }
 
     @Override

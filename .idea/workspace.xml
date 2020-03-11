@@ -10,25 +10,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91e60372-c28b-44b6-a576-dfe91a4bd8c0" name="Default Changelist" comment="XML parser completed:&#10;&#10;* ANSWER type still not supported (missing information about initial question owner)&#10;* REGULAR type appears to be &quot;all in one&quot; type of thing, solved by limiting it to sole text formatting&#10;* CONVERSATION type appears in DEMO xml response, still haven't been able to find it outside test environment&#10;&#10;* REBLOGGED chains not supported due to their complexity and limitations of V1 API package&#10;&#10;TODO: User Interface.">
-      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_firdausmaulan_GlideSlider_1_5_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xyz_schwaab_avvylib_0_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/data/parsers/TumblrXmlParser_Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ApplicationModule_ProvideXmlPullParserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/ui/main/MainPresenter_MembersInjector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/OnBottomReachedListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_pause.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_play.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_stop.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_audio.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_conversation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_link.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_photo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_quote.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_regular.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_video.xml" afterDir="false" />
+    <list default="true" id="91e60372-c28b-44b6-a576-dfe91a4bd8c0" name="Default Changelist" comment="Almost there!&#10;&#10;* RecyclerView adapter works as intended&#10;* UI nearly finished">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/round_border_15.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
@@ -39,104 +22,55 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/component/DaggerActivityComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/component/DaggerActivityComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/dataInterface/module/ActivityModule_ProvideRssAdapterFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/ui/main/MainActivity_MembersInjector.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/ui/main/MainActivity_MembersInjector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/ui/main/MainPresenter_Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/jnsoftware/tumblr/ui/main/MainPresenter_Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/data/BaseDataManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/data/BaseDataManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/data/DataManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/data/DataManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/data/prefs/PreferencesHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/data/prefs/PreferencesHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/data/prefs/PreferencesManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/data/prefs/PreferencesManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/base/BaseActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/base/BaseActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/base/BaseViewHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/base/BaseViewHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/base/BasePresenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/base/BasePresenter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/main/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/main/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/main/MainActivity_MembersInjector.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/main/MainActivity_MembersInjector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/main/MainMvpPresenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/main/MainMvpPresenter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/main/MainMvpView.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/main/MainMvpView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/main/MainPresenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/main/MainPresenter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/main/MainPresenter_Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/main/MainPresenter_Factory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/main/RssAdapter$Callback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/main/RssAdapter$EmptyViewHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/main/RssAdapter$ViewHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/ui/main/RssAdapter.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/utils/CommonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/jnsoftware/tumblr/utils/CommonUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/data/BaseDataManager.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/data/BaseDataManager.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/data/DataManager.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/data/DataManager.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/data/prefs/PreferencesHelper.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/data/prefs/PreferencesHelper.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/data/prefs/PreferencesManager.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/data/prefs/PreferencesManager.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/base/BaseActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/base/BaseActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/base/BaseViewHolder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/base/BaseViewHolder.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/base/BasePresenter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/base/BasePresenter.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/main/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/main/MainActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/main/MainActivity_MembersInjector.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/main/MainActivity_MembersInjector.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/main/MainMvpPresenter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/main/MainMvpPresenter.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/main/MainMvpView.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/main/MainMvpView.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/main/MainPresenter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/main/MainPresenter.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/main/MainPresenter_Factory.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/main/MainPresenter_Factory.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/main/RssAdapter$Callback.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/main/RssAdapter$EmptyViewHolder.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/main/RssAdapter$ViewHolder.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/ui/main/RssAdapter.dex" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/utils/CommonUtils.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/jnsoftware/tumblr/utils/CommonUtils.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_item_empty_view.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_item_empty_view.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_item_feed.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu_menu_main.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu_menu_main.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/BaseDataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/BaseDataManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/DataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/DataManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/pojo/TumblrPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/pojo/TumblrPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/rest/NetworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/rest/NetworkService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/rest/RestApiHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/rest/RestApiHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/rest/RestApiManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/network/rest/RestApiManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/parsers/TumblrXmlParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/parsers/TumblrXmlParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/prefs/PreferencesHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/prefs/PreferencesHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/prefs/PreferencesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/data/prefs/PreferencesManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/dataInterface/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/dataInterface/ApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/dataInterface/module/ActivityModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/dataInterface/module/ActivityModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/dataInterface/module/ApplicationModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/dataInterface/module/ApplicationModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/BaseViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/BaseViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/BasePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/BasePresenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainMvpPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainMvpPresenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainMvpView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainMvpView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/MainPresenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/RssAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/TumblrFeedAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/TumblrFeedAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/TumblrFeedAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/utils/CommonUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_audio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_audio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_conversation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_conversation.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_empty_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_empty_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_feed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_post.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_link.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_link.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_photo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_photo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_quote.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_quote.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_regular.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_regular.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_video.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_video.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <list id="810ccc9b-de8b-445c-bb8a-8051637b0fef" name="Revert &quot;intial project setup&quot;" comment="Revert &quot;intial project setup&quot;&#10;&#10;This reverts commit 972d7faa" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -145,7 +79,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_24" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="7BQDU17413000034" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -161,8 +95,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="resourceFile" />
         <option value="Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -208,7 +142,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_5X_API_24" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-03-11T08:58:08.836Z" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -233,6 +167,7 @@
       <recent name="com.jnsoftware.tumblr.data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ProjektyMOJE\TumblrViewer\app\src\main\res\drawable" />
       <recent name="E:\ProjektyMOJE\TumblrViewer\app\src\main\res\layout" />
       <recent name="E:\ProjektyMOJE\TumblrViewer\app\src\main\res" />
     </key>
@@ -365,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583875014386</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Almost there!&#10;&#10;* RecyclerView adapter works as intended&#10;* UI nearly finished">
+      <created>1583950425428</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583950425428</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -402,7 +344,8 @@
     <MESSAGE value="Cleaned up template" />
     <MESSAGE value="testing" />
     <MESSAGE value="XML parser completed:&#10;&#10;* ANSWER type still not supported (missing information about initial question owner)&#10;* REGULAR type appears to be &quot;all in one&quot; type of thing, solved by limiting it to sole text formatting&#10;* CONVERSATION type appears in DEMO xml response, still haven't been able to find it outside test environment&#10;&#10;* REBLOGGED chains not supported due to their complexity and limitations of V1 API package&#10;&#10;TODO: User Interface." />
-    <option name="LAST_COMMIT_MESSAGE" value="XML parser completed:&#10;&#10;* ANSWER type still not supported (missing information about initial question owner)&#10;* REGULAR type appears to be &quot;all in one&quot; type of thing, solved by limiting it to sole text formatting&#10;* CONVERSATION type appears in DEMO xml response, still haven't been able to find it outside test environment&#10;&#10;* REBLOGGED chains not supported due to their complexity and limitations of V1 API package&#10;&#10;TODO: User Interface." />
+    <MESSAGE value="Almost there!&#10;&#10;* RecyclerView adapter works as intended&#10;* UI nearly finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost there!&#10;&#10;* RecyclerView adapter works as intended&#10;* UI nearly finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -419,18 +362,48 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/TumblrFeedAdapter.java</url>
-          <line>515</line>
+          <line>513</line>
           <option name="timeStamp" value="284" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/TumblrFeedAdapter.java</url>
-          <line>516</line>
+          <line>514</line>
           <option name="timeStamp" value="285" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/TumblrFeedAdapter.java</url>
-          <line>519</line>
+          <line>517</line>
           <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/base/BasePresenter.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/TumblrFeedAdapter.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/TumblrFeedAdapter.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/TumblrFeedAdapter.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/TumblrFeedAdapter.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/jnsoftware/tumblr/ui/main/TumblrFeedAdapter.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="295" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

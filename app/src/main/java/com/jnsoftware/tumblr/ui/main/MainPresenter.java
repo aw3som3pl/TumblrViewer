@@ -1,8 +1,11 @@
 package com.jnsoftware.tumblr.ui.main;
 
 import com.jnsoftware.tumblr.data.DataManager;
+import com.jnsoftware.tumblr.data.network.rest.NetworkService;
 import com.jnsoftware.tumblr.data.parsers.TumblrXmlParser;
 import com.jnsoftware.tumblr.ui.base.BasePresenter;
+import com.jnsoftware.tumblr.utils.CommonUtils;
+import com.jnsoftware.tumblr.utils.NetworkUtils;
 import com.jnsoftware.tumblr.utils.rx.SchedulerProvider;
 
 import java.util.HashMap;
@@ -32,7 +35,7 @@ public class MainPresenter<V extends MainMvpView> extends BasePresenter<V>
 
     @Override
     public void onViewPrepared() {
-        if(getDataManager().getLastSearchedUserName() != null){
+        if(getDataManager().getLastSearchedUserName() != null && getMvpView().isNetworkConnected()){
             fetchNewTumblrFeedBatch(getDataManager().getLastSearchedUserName());
         } else {
             fetchNewTumblrFeedBatch("demo");
@@ -41,58 +44,67 @@ public class MainPresenter<V extends MainMvpView> extends BasePresenter<V>
 
     @Override
     public void loadFreshTumblrPostBatch(String userName, Map<String, String> params){
-        getMvpView().showLoading();
-        getCompositeDisposable().add(getDataManager()
-                .getTumblrPostXmlStream(userName, params)
-                .subscribeOn(getSchedulerProvider().io())
-                .observeOn(getSchedulerProvider().computation())
-                .map( responseBody -> mTumblrXmlParser.parse(responseBody.byteStream()))
-                .observeOn(getSchedulerProvider().ui())
-                .subscribe(outcome -> {
-                    if (!isViewAttached()) {
-                        return;
-                    }
-                    getMvpView().hideLoading();
+        if(getMvpView().isNetworkConnected()) {
+            getMvpView().showLoading();
+            getCompositeDisposable().add(getDataManager()
+                    .getTumblrPostXmlStream(userName, params)
+                    .subscribeOn(getSchedulerProvider().io())
+                    .observeOn(getSchedulerProvider().computation())
+                    .map(responseBody -> mTumblrXmlParser.parse(responseBody.byteStream()))
+                    .observeOn(getSchedulerProvider().ui())
+                    .subscribe(outcome -> {
+                        if (!isViewAttached()) {
+                            return;
+                        }
+                        getMvpView().hideLoading();
 
-                    getDataManager().setLastSearchedUserName(userName);
-                    getMvpView().initializeFeed(outcome);
+                        getDataManager().setLastSearchedUserName(userName);
+                        getMvpView().initializeFeed(outcome);
 
-                }, error -> {
-                    if (!isViewAttached()) {
-                        return;
-                    }
-                    getMvpView().hideLoading();
+                    }, error -> {
+                        if (!isViewAttached()) {
+                            return;
+                        }
+                        getMvpView().hideLoading();
 
 
-                    handleApiError(error);
-                }));
+                        handleApiError(error);
+                    }));
+        }else{
+            getMvpView().showMessage("No internet connection");
+        }
     }
 
     @Override
     public void loadNextTumblrPostBatch(String userName, Map<String, String> params){
-        getMvpView().showLoading();
-        getCompositeDisposable().add(getDataManager()
-                .getTumblrPostXmlStream(userName, params)
-                .subscribeOn(getSchedulerProvider().io())
-                .observeOn(getSchedulerProvider().computation())
-                .map( responseBody -> mTumblrXmlParser.parse(responseBody.byteStream()))
-                .observeOn(getSchedulerProvider().ui())
-                .subscribe(outcome -> {
-                    if (!isViewAttached()) {
-                        return;
-                    }
-                    getMvpView().hideLoading();
-                    getMvpView().updateFeed(outcome);
+        if(getMvpView().isNetworkConnected()) {
+            getMvpView().showLoading();
+            getCompositeDisposable().add(getDataManager()
+                    .getTumblrPostXmlStream(userName, params)
+                    .subscribeOn(getSchedulerProvider().io())
+                    .observeOn(getSchedulerProvider().computation())
+                    .map(responseBody -> mTumblrXmlParser.parse(responseBody.byteStream()))
+                    .observeOn(getSchedulerProvider().ui())
+                    .subscribe(outcome -> {
+                        if (!isViewAttached()) {
+                            return;
+                        }
+                        getMvpView().hideLoading();
+                        getMvpView().updateFeed(outcome);
 
-                }, error -> {
-                    if (!isViewAttached()) {
-                        return;
-                    }
-                    getMvpView().hideLoading();
+                    }, error -> {
+                        if (!isViewAttached()) {
+                            return;
+                        }
+                        getMvpView().hideLoading();
 
 
-                    handleApiError(error);
-                }));
+                        handleApiError(error);
+                    }));
+        } else {
+            getMvpView().showMessage("No network connection");
+        }
+
     }
 
     @Override

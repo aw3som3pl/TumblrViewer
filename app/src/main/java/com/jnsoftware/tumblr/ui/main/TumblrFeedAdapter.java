@@ -74,7 +74,7 @@ public class TumblrFeedAdapter extends RecyclerView.Adapter<BaseViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(BaseViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull BaseViewHolder holder, int position) {
         if ((position == mTumblrPostList.size() - 1) && (mTumblrPostList.get(0).getPostCount() > mTumblrPostList.size())) {
             onBottomReachedListener.onBottomReached(position + 1 );
         }
@@ -102,6 +102,7 @@ public class TumblrFeedAdapter extends RecyclerView.Adapter<BaseViewHolder> {
                 break;
             case VIEW_TYPE_EMPTY:
             default:
+                ((EmptyViewHolder) holder).setEmptyDetails();
                 break;
         }
     }
@@ -175,19 +176,16 @@ public class TumblrFeedAdapter extends RecyclerView.Adapter<BaseViewHolder> {
 
     public class EmptyViewHolder extends BaseViewHolder {
 
-        TextView messageTextView;
-        TextView buttonRetry;
-
         EmptyViewHolder(View itemView) {
             super(itemView);
-            buttonRetry = itemView.findViewById(R.id.buttonRetry);
-            buttonRetry.setOnClickListener(v -> mCallback.onEmptyViewRetryClick());
         }
 
         @Override
         protected void clear() {
 
         }
+
+        public void setEmptyDetails(){};
 
     }
 

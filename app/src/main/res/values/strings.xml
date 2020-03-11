@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">TumblrViewer</string>
     <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
     <string name="some_error">Something went wrong</string>
 
     <string name="empty_screen">We do not have anything\nhere right now. Please Retry</string>

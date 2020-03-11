@@ -1021,6 +1021,7 @@ color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color ripple_material_dark
 color ripple_material_light
+color searchbar_grey
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -1535,6 +1536,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable round_border_15
 drawable round_corners_15
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1608,13 +1610,13 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_divider
+id action_exit
 id action_image
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
-id action_settings
 id action_text
 id actions
 id activity_chooser_view_content
@@ -1637,7 +1639,6 @@ id blocking
 id body
 id bottom
 id buttonPanel
-id buttonRetry
 id cancel_button
 id caption
 id center
@@ -1659,6 +1660,7 @@ id collapseActionView
 id column
 id column_reverse
 id confirm_button
+id constraintLayout
 id container
 id content
 id contentLayout
@@ -1893,9 +1895,7 @@ id titleLabel
 id titleLayout
 id title_template
 id toolbar
-id toolbarLayout
 id top
-id topBar
 id topPanel
 id touch_outside
 id track
@@ -2098,6 +2098,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_exit
 string action_settings
 string app_name
 string appbar_scrolling_view_behavior
@@ -2440,6 +2441,7 @@ style RtlOverlay_Widget_AppCompat_Search_DropDown_Text
 style RtlOverlay_Widget_AppCompat_SearchView_MagIcon
 style RtlUnderlay_Widget_AppCompat_ActionButton
 style RtlUnderlay_Widget_AppCompat_ActionButton_Overflow
+style SearchViewStyle
 style ShapeAppearance_MaterialComponents
 style ShapeAppearance_MaterialComponents_LargeComponent
 style ShapeAppearance_MaterialComponents_MediumComponent

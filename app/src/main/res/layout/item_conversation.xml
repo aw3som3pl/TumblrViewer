@@ -47,10 +47,9 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="TextView"
             android:textAlignment="center"
-            android:textColor="#0B0909"
-            android:textSize="18dp"
+            android:textColor="@color/text_black"
+            android:textSize="24dp"
             android:textStyle="bold" />
     </LinearLayout>
 

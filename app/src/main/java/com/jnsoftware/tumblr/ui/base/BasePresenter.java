@@ -86,7 +86,7 @@ public class BasePresenter<V extends MvpView> implements MvpPresenter<V> {
                     mMvpView.onError("No Internet Connection");
                     break;
                 default:
-                    mMvpView.onError(error.getLocalizedMessage());
+                    mMvpView.onError("No such user exists");
 
             }
         }

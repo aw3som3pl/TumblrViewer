@@ -92,6 +92,10 @@
         "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_border_15.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\drawable\\round_border_15.xml"
+    },
+    {
         "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_quote.xml.flat",
         "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\layout\\item_quote.xml"
     },

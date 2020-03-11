@@ -19,4 +19,5 @@
     <color name="text_grey">#252525</color>
     <color name="text_link">#0711CC</color>
     <color name="text_quote">#1F242C</color>
+    <color name="searchbar_grey">#C2C2C2</color>
 </resources>

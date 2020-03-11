@@ -73,7 +73,7 @@ public class CommonUtils {
     {
         String validUrl = "";
 
-        String urlRegex = "(http)?s?:?\\/\\/[a-zA-Z0-9\\-\\.]+\\.[a-zA-Z]{2,3}(\\/\\S*)?mp4";
+        String urlRegex = "(?<protocol>https?:\\/\\/(www\\.)?|www\\.)(?=.*mp4$|(?:youtu\\.?be))(?<url>.*)";
         Pattern pattern = Pattern.compile(urlRegex, Pattern.CASE_INSENSITIVE);
         Matcher urlMatcher = pattern.matcher(text);
 
