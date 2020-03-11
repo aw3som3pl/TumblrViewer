@@ -9,6 +9,7 @@ import javax.inject.Qualifier;
  * Created on : Feb 07, 2020
  * Author     : JNsoftware
  */
+
 @Qualifier
 @Retention(RetentionPolicy.RUNTIME)
 public @interface ApplicationContext {

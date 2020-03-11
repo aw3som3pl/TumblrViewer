@@ -6,6 +6,5 @@ import com.jnsoftware.tumblr.data.prefs.PreferencesHelper;
 public interface DataManager extends PreferencesHelper, RestApiHelper{
 
     void updateUserInfo(
-            String userName,
-            String profilePicPath);
+            String userName);
 }

@@ -12,12 +12,32 @@
         "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_photo.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\layout\\item_photo.xml"
+    },
+    {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_link.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\layout\\item_link.xml"
+    },
+    {
         "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_audio.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\layout\\item_audio.xml"
+    },
+    {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_pause.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\drawable\\ic_pause.xml"
+    },
+    {
         "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_corners_15.xml.flat",
         "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\drawable\\round_corners_15.xml"
+    },
+    {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_regular.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\layout\\item_regular.xml"
     },
     {
         "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
@@ -44,6 +64,10 @@
         "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\drawable\\divider_drawable.xml"
     },
     {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_stop.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\drawable\\ic_stop.xml"
+    },
+    {
         "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
@@ -68,16 +92,24 @@
         "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_post.xml.flat",
-        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\layout\\item_post.xml"
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_quote.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\layout\\item_quote.xml"
     },
     {
-        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_feed.xml.flat",
-        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\layout\\item_feed.xml"
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_play.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\drawable\\ic_play.xml"
+    },
+    {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_conversation.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\layout\\item_conversation.xml"
     },
     {
         "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_video.xml.flat",
+        "source": "E:\\ProjektyMOJE\\TumblrViewer\\app\\src\\main\\res\\layout\\item_video.xml"
     },
     {
         "merged": "E:\\ProjektyMOJE\\TumblrViewer\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_empty_view.xml.flat",

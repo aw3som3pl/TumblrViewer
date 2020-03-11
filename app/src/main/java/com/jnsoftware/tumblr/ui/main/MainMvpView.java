@@ -10,5 +10,10 @@ import java.util.List;
  * Author     : JNsoftware
  */
 public interface MainMvpView extends MvpView {
+
     void updateFeed(List<TumblrPost> feedItemList);
+
+    void initializeFeed(List<TumblrPost> feedItemList);
+
+    void showDuplicateSearchToast();
 }

@@ -5,6 +5,7 @@ INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-
 INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-30:12
 INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [com.google.android.material:material:1.2.0-alpha05] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\2dfacce0be1cfee478b941995f3b252e\material-1.2.0-alpha05\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.firdausmaulan:GlideSlider:1.5.1] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\c0f78feffd015003e8131aa630fd68ee\jetified-GlideSlider-1.5.1\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.appcompat:appcompat:1.2.0-alpha03] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\dc079ff0976c14d261443f3e99942987\appcompat-1.2.0-alpha03\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\1615cf3e33775583677ee3a2bf93783a\jetified-rxandroid-2.0.2\AndroidManifest.xml:15:1-21:12
@@ -12,6 +13,8 @@ MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\jan\.gradle\caches\t
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\cff0d1b30776eaeafd152d3c76e2da6a\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\7d7fd0d2929b90b96150578fa61b2794\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android:flexbox:2.0.1] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\7213839d043ac8eb5e943e6d935ad9f0\jetified-flexbox-2.0.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\98533a75c963d389d2db7b5a19727bc5\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [xyz.schwaab:avvylib:0.1.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\1d56a3e5adef94a505daf510e6956e97\jetified-avvylib-0.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\4121297dbffa839da42bbf9959936b01\jetified-glide-4.9.0\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\e27002105a9bdd38fe216ef919b747b9\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0-alpha03] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\3b9f9ee80c74e85bb9b9ad8e5b588918\jetified-appcompat-resources-1.2.0-alpha03\AndroidManifest.xml:17:1-24:12
@@ -26,12 +29,12 @@ MERGED from [androidx.activity:activity:1.0.0] C:\Users\jan\.gradle\caches\trans
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\223ae8e78f23f48ba5d96a1dcabe1834\customview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.3.0-alpha02] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\dd84d74b717d5e64a2a5f46d0814ca9c\core-1.3.0-alpha02\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\aace0d5da73d2c817f12bb96d6698e5c\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\c4e2469658fdd8801a5306110b0915fc\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\3265e0bfa855b91b5566b815f8a1d2d2\jetified-gifdecoder-4.9.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\929ec10604c047a76453df3294ada6ae\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\e2041232485bdf4d2a09c36930218fc5\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\0b3ed2b8b9ba103e713cc57e24141ba7\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\80494d026c905f06e4c8b45b3569cb2d\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\c4e2469658fdd8801a5306110b0915fc\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\54ec9a60a0f20829d9c5323f1ce0908c\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\0571339fd4cb74441b19561f6766bb98\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\0f91f258f9d0abaa0e56c019df47bd85\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
@@ -61,6 +64,8 @@ ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:6:5-79
 		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:6:22-76
 uses-permission#android.permission.INTERNET
 ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.github.firdausmaulan:GlideSlider:1.5.1] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\c0f78feffd015003e8131aa630fd68ee\jetified-GlideSlider-1.5.1\AndroidManifest.xml:11:5-67
+MERGED from [com.github.firdausmaulan:GlideSlider:1.5.1] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\c0f78feffd015003e8131aa630fd68ee\jetified-GlideSlider-1.5.1\AndroidManifest.xml:11:5-67
 	android:name
 		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:7:22-64
 application
@@ -119,6 +124,8 @@ INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml
 INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.2.0-alpha05] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\2dfacce0be1cfee478b941995f3b252e\material-1.2.0-alpha05\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.2.0-alpha05] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\2dfacce0be1cfee478b941995f3b252e\material-1.2.0-alpha05\AndroidManifest.xml:20:5-44
+MERGED from [com.github.firdausmaulan:GlideSlider:1.5.1] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\c0f78feffd015003e8131aa630fd68ee\jetified-GlideSlider-1.5.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.firdausmaulan:GlideSlider:1.5.1] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\c0f78feffd015003e8131aa630fd68ee\jetified-GlideSlider-1.5.1\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.2.0-alpha03] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\dc079ff0976c14d261443f3e99942987\appcompat-1.2.0-alpha03\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0-alpha03] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\dc079ff0976c14d261443f3e99942987\appcompat-1.2.0-alpha03\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
@@ -133,6 +140,10 @@ MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jan\.gradle\caches\trans
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\7d7fd0d2929b90b96150578fa61b2794\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android:flexbox:2.0.1] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\7213839d043ac8eb5e943e6d935ad9f0\jetified-flexbox-2.0.1\AndroidManifest.xml:22:5-24:41
 MERGED from [com.google.android:flexbox:2.0.1] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\7213839d043ac8eb5e943e6d935ad9f0\jetified-flexbox-2.0.1\AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\98533a75c963d389d2db7b5a19727bc5\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\98533a75c963d389d2db7b5a19727bc5\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [xyz.schwaab:avvylib:0.1.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\1d56a3e5adef94a505daf510e6956e97\jetified-avvylib-0.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [xyz.schwaab:avvylib:0.1.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\1d56a3e5adef94a505daf510e6956e97\jetified-avvylib-0.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\4121297dbffa839da42bbf9959936b01\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\4121297dbffa839da42bbf9959936b01\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\e27002105a9bdd38fe216ef919b747b9\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -161,6 +172,8 @@ MERGED from [androidx.core:core:1.3.0-alpha02] C:\Users\jan\.gradle\caches\trans
 MERGED from [androidx.core:core:1.3.0-alpha02] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\dd84d74b717d5e64a2a5f46d0814ca9c\core-1.3.0-alpha02\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\aace0d5da73d2c817f12bb96d6698e5c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\aace0d5da73d2c817f12bb96d6698e5c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\c4e2469658fdd8801a5306110b0915fc\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\c4e2469658fdd8801a5306110b0915fc\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\3265e0bfa855b91b5566b815f8a1d2d2\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\3265e0bfa855b91b5566b815f8a1d2d2\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\929ec10604c047a76453df3294ada6ae\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -171,8 +184,6 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\jan\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\0b3ed2b8b9ba103e713cc57e24141ba7\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\80494d026c905f06e4c8b45b3569cb2d\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\80494d026c905f06e4c8b45b3569cb2d\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\c4e2469658fdd8801a5306110b0915fc\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\c4e2469658fdd8801a5306110b0915fc\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\54ec9a60a0f20829d9c5323f1ce0908c\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\54ec9a60a0f20829d9c5323f1ce0908c\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\0571339fd4cb74441b19561f6766bb98\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
@@ -191,3 +202,7 @@ INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml
 		INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml
 		ADDED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml
 		INJECTED from E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.github.firdausmaulan:GlideSlider:1.5.1] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\c0f78feffd015003e8131aa630fd68ee\jetified-GlideSlider-1.5.1\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from [com.github.firdausmaulan:GlideSlider:1.5.1] C:\Users\jan\.gradle\caches\transforms-2\files-2.1\c0f78feffd015003e8131aa630fd68ee\jetified-GlideSlider-1.5.1\AndroidManifest.xml:12:22-78

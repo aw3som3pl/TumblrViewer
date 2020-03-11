@@ -6,10 +6,6 @@ public interface PreferencesHelper {
 
     void setLastSearchedUserName(String userName);
 
-    String getLastSearchedUserProfilePicUrl();
-
-    void setLastSearchedUserProfilePicUrl(String profilePicUrl);
-
     boolean isFirstTime();
 
     void setFirstTime(boolean firstTime);

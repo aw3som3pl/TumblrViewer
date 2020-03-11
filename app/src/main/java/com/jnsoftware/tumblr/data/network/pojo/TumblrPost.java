@@ -1,5 +1,6 @@
 package com.jnsoftware.tumblr.data.network.pojo;
 
+import androidx.annotation.IntDef;
 import androidx.annotation.StringDef;
 
 import java.lang.annotation.Retention;
@@ -10,21 +11,22 @@ import java.util.List;
 
 public class TumblrPost {
 
-    public static final String REGULAR = "regular";
-    public static final String LINK = "link";
-    public static final String QUOTE = "quote";
-    public static final String PHOTO = "photo";
-    public static final String CONVERSATION = "conversation";
-    public static final String VIDEO = "video";
-    public static final String AUDIO = "audio";
-    public static final String ANSWER = "answer";
+    public static final int REGULAR = 1;
+    public static final int LINK = 2;
+    public static final int QUOTE = 3;
+    public static final int PHOTO = 4;
+    public static final int CONVERSATION = 5;
+    public static final int VIDEO = 6;
+    public static final int AUDIO = 7;
+    public static final int ANSWER = 8;
 
-    @StringDef({REGULAR, LINK, QUOTE, PHOTO, CONVERSATION, VIDEO, AUDIO,ANSWER})
+    @IntDef({REGULAR, LINK, QUOTE, PHOTO, CONVERSATION, VIDEO, AUDIO,ANSWER})
     @Retention(RetentionPolicy.SOURCE)
     public @interface PostType {}
 
     //METADATA
-    private String postType;
+    private int postType;
+    private int postCount;
     private String accountURL;
     private String creationTimestamp;
     private String userName;
@@ -313,12 +315,13 @@ public class TumblrPost {
     }
 
     public static class Answer{
-        //Not possible due to missing question origina
+        //Not possible due to missing question origin
     }
 
-    public TumblrPost(String tumblrPostURL, String creationTimestamp){
+    public TumblrPost(String tumblrPostURL, String creationTimestamp, int postCount){
         this.tumblrPostURL = tumblrPostURL;
         this.creationTimestamp = creationTimestamp;
+        this.postCount = postCount;
         tagList = new ArrayList<>();
     }
 
@@ -331,8 +334,25 @@ public class TumblrPost {
         tagList = new ArrayList<>();
     }
 
-    public void determinePostType(@PostType String postType){
+    public void determinePostType(@PostType int postType){
         this.postType = postType;
+    }
+
+    public int getPostType(){
+        return this.postType;
+    }
+
+    public int getPostCount() {
+        return postCount;
+    }
+
+    public void setPostCount(int postCount) {
+        this.postCount = postCount;
+    }
+
+
+    public List<String> getTagList(){
+        return tagList;
     }
 
     public Regular getTypeRegular() {

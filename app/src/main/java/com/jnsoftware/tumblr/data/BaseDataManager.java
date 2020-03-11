@@ -9,6 +9,7 @@ import com.jnsoftware.tumblr.dataInterface.ApplicationContext;
 
 import java.io.InputStream;
 import java.util.List;
+import java.util.Map;
 
 import javax.inject.Inject;
 
@@ -33,14 +34,13 @@ public class BaseDataManager implements DataManager {
     }
 
     @Override
-    public void updateUserInfo(String userName, String profilePicPath) {
+    public void updateUserInfo(String userName) {
         mPreferencesHelper.setLastSearchedUserName(userName);
-        mPreferencesHelper.setLastSearchedUserProfilePicUrl(profilePicPath);
     }
 
     @Override
-    public Single<ResponseBody> getTumblrPostXmlStream(String user) {
-        return mApiHelper.getTumblrPostXmlStream(user);
+    public Single<ResponseBody> getTumblrPostXmlStream(String user, Map<String, String> params) {
+        return mApiHelper.getTumblrPostXmlStream(user, params);
     }
 
     @Override
@@ -51,16 +51,6 @@ public class BaseDataManager implements DataManager {
     @Override
     public void setLastSearchedUserName(String userId) {
         mPreferencesHelper.setLastSearchedUserName(userId);
-    }
-
-    @Override
-    public String getLastSearchedUserProfilePicUrl() {
-        return mPreferencesHelper.getLastSearchedUserProfilePicUrl();
-    }
-
-    @Override
-    public void setLastSearchedUserProfilePicUrl(String profilePicUrl) {
-        mPreferencesHelper.setLastSearchedUserProfilePicUrl(profilePicUrl);
     }
 
     @Override

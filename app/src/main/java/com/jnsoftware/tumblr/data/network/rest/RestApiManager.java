@@ -1,5 +1,7 @@
 package com.jnsoftware.tumblr.data.network.rest;
 
+import java.util.Map;
+
 import javax.inject.Inject;
 import javax.inject.Singleton;
 
@@ -17,7 +19,7 @@ public class RestApiManager implements RestApiHelper {
     }
 
     @Override
-    public Single<ResponseBody> getTumblrPostXmlStream(String user) {
-        return mService.getTumblrPostList(user);
+    public Single<ResponseBody> getTumblrPostXmlStream(String user, Map<String,String> params) {
+        return mService.getTumblrPostList(user,params);
     }
 }

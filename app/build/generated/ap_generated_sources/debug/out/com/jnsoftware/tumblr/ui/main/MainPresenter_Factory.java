@@ -2,6 +2,7 @@
 package com.jnsoftware.tumblr.ui.main;
 
 import com.jnsoftware.tumblr.data.DataManager;
+import com.jnsoftware.tumblr.data.parsers.TumblrXmlParser;
 import com.jnsoftware.tumblr.utils.rx.SchedulerProvider;
 import dagger.internal.Factory;
 import io.reactivex.disposables.CompositeDisposable;
@@ -15,26 +16,41 @@ public final class MainPresenter_Factory<V extends MainMvpView>
 
   private final Provider<CompositeDisposable> compositeDisposableProvider;
 
+  private final Provider<TumblrXmlParser> mTumblrXmlParserProvider;
+
   public MainPresenter_Factory(
       Provider<DataManager> managerProvider,
       Provider<SchedulerProvider> schedulerProvider,
-      Provider<CompositeDisposable> compositeDisposableProvider) {
+      Provider<CompositeDisposable> compositeDisposableProvider,
+      Provider<TumblrXmlParser> mTumblrXmlParserProvider) {
     this.managerProvider = managerProvider;
     this.schedulerProvider = schedulerProvider;
     this.compositeDisposableProvider = compositeDisposableProvider;
+    this.mTumblrXmlParserProvider = mTumblrXmlParserProvider;
   }
 
   @Override
   public MainPresenter<V> get() {
-    return new MainPresenter<V>(
-        managerProvider.get(), schedulerProvider.get(), compositeDisposableProvider.get());
+    MainPresenter<V> instance =
+        new MainPresenter<V>(
+            managerProvider.get(), schedulerProvider.get(), compositeDisposableProvider.get());
+    MainPresenter_MembersInjector.injectMTumblrXmlParser(instance, mTumblrXmlParserProvider.get());
+    return instance;
   }
 
   public static <V extends MainMvpView> MainPresenter_Factory<V> create(
       Provider<DataManager> managerProvider,
       Provider<SchedulerProvider> schedulerProvider,
-      Provider<CompositeDisposable> compositeDisposableProvider) {
+      Provider<CompositeDisposable> compositeDisposableProvider,
+      Provider<TumblrXmlParser> mTumblrXmlParserProvider) {
     return new MainPresenter_Factory<V>(
-        managerProvider, schedulerProvider, compositeDisposableProvider);
+        managerProvider, schedulerProvider, compositeDisposableProvider, mTumblrXmlParserProvider);
+  }
+
+  public static <V extends MainMvpView> MainPresenter<V> newMainPresenter(
+      DataManager manager,
+      SchedulerProvider schedulerProvider,
+      CompositeDisposable compositeDisposable) {
+    return new MainPresenter<V>(manager, schedulerProvider, compositeDisposable);
   }
 }

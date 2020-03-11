@@ -13,7 +13,6 @@ public class PreferencesManager implements PreferencesHelper {
 
     private static final String PREF_KEY_USER_NAME = "PREF_KEY_USER_NAME";
     private static final String PREF_KEY_FIRST_TIME = "PREF_KEY_FIRST_TIME";
-    private static final String PREF_KEY_USER_PROFILE_PIC_URL = "PREF_KEY_USER_PROFILE_PIC_URL";
 
     private final SharedPreferences mPrefs;
     private Context mAppContext;
@@ -23,16 +22,6 @@ public class PreferencesManager implements PreferencesHelper {
                               @PreferenceInfo String prefFileName) {
         mPrefs = context.getSharedPreferences(prefFileName, Context.MODE_PRIVATE);
         mAppContext = context;
-    }
-
-    @Override
-    public String getLastSearchedUserProfilePicUrl() {
-        return mPrefs.getString(PREF_KEY_USER_PROFILE_PIC_URL, null);
-    }
-
-    @Override
-    public void setLastSearchedUserProfilePicUrl(String profilePicUrl) {
-        mPrefs.edit().putString(PREF_KEY_USER_PROFILE_PIC_URL, profilePicUrl).apply();
     }
 
     @Override

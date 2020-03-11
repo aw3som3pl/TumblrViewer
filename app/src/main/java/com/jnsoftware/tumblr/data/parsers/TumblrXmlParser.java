@@ -15,7 +15,14 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import javax.inject.Inject;
+
 public class TumblrXmlParser {
+
+    @Inject
+    public TumblrXmlParser(){}
+
+    private static final int RESOURCE_MAX_WIDTH = 400;
 
     private static final String ns = null;
 
@@ -54,6 +61,9 @@ public class TumblrXmlParser {
         List<TumblrPost> posts = new ArrayList<>();
 
         parser.require(XmlPullParser.START_TAG, ns, "posts");
+
+        int postCount = Integer.parseInt(parser.getAttributeValue(null,"total"));
+
         while (parser.next() != XmlPullParser.END_TAG) {
             if (parser.getEventType() != XmlPullParser.START_TAG) {
                 continue;
@@ -64,7 +74,7 @@ public class TumblrXmlParser {
                 parser.require(XmlPullParser.START_TAG, ns, "post");
                 String creationTimestamp = parser.getAttributeValue(null,"unix-timestamp");
                 String postUrl = parser.getAttributeValue(null,"url");
-                TumblrPost post = readPost(parser,creationTimestamp,postUrl);
+                TumblrPost post = readPost(parser,creationTimestamp, postUrl, postCount);
                 if(post!=null) {
                     posts.add(post);
                 }
@@ -75,9 +85,9 @@ public class TumblrXmlParser {
         return posts;
     }
 
-    private TumblrPost readPost(XmlPullParser parser,String creationTimestamp, String tumblrPostUrl) throws XmlPullParserException, IOException {
+    private TumblrPost readPost(XmlPullParser parser,String creationTimestamp, String tumblrPostUrl, int postCount) throws XmlPullParserException, IOException {
 
-        TumblrPost tumblrPost = new TumblrPost(tumblrPostUrl, creationTimestamp);
+        TumblrPost tumblrPost = new TumblrPost(tumblrPostUrl, creationTimestamp, postCount);
 
         parser.require(XmlPullParser.START_TAG, ns, "post");
 
@@ -264,7 +274,7 @@ public class TumblrXmlParser {
                     parser.require(XmlPullParser.END_TAG, ns, "photo-caption");
                     break;
                 case "photo-url": // looks for post content
-                    if(Integer.parseInt(parser.getAttributeValue(null,"max-width")) == 250){
+                    if(Integer.parseInt(parser.getAttributeValue(null,"max-width")) == RESOURCE_MAX_WIDTH){
                         parser.require(XmlPullParser.START_TAG, ns, "photo-url");
                         initializedPost.getTypePhoto().setMainPhotoURL(readText(parser));
                         parser.require(XmlPullParser.END_TAG, ns, "photo-url");
@@ -338,9 +348,9 @@ public class TumblrXmlParser {
                     break;
                 case "video-player": // looks for post content
                     parser.require(XmlPullParser.START_TAG, ns, "video-player");
-                    List<String> extractedUrls = CommonUtils.extractUrls(readText(parser));
-                    initializedPost.getTypeVideo().setVideoThumbnailUrl(extractedUrls.get(0));
-                    initializedPost.getTypeVideo().setVideoSourceURL(extractedUrls.get(1));
+                    String rawText = readText(parser);
+                    initializedPost.getTypeVideo().setVideoThumbnailUrl(CommonUtils.extractImage(rawText));
+                    initializedPost.getTypeVideo().setVideoSourceURL(CommonUtils.extractVideoUrl(rawText));
                     parser.require(XmlPullParser.END_TAG, ns, "video-player");
                     break;
                 case "tag": // looks for post content
@@ -377,7 +387,7 @@ public class TumblrXmlParser {
                     parser.require(XmlPullParser.END_TAG, ns, "audio-caption");
                     break;
                 case "audio-player": // looks for post content
-                    initializedPost.getTypeAudio().setAudioURL(CommonUtils.extractUrls(readText(parser)).get(0));
+                    initializedPost.getTypeAudio().setAudioURL(CommonUtils.extractAudioUrl(readText(parser)));
                     break;
                 case "id3-artist": // looks for post content
                     parser.require(XmlPullParser.START_TAG, ns, "id3-artist");
@@ -452,7 +462,7 @@ public class TumblrXmlParser {
             }
             String name = parser.getName();
 
-            if(Integer.parseInt(parser.getAttributeValue(null,"max-width")) == 250){
+            if(Integer.parseInt(parser.getAttributeValue(null,"max-width")) == RESOURCE_MAX_WIDTH){
                 parser.require(XmlPullParser.START_TAG, ns, "photo-url");
                 photoUrl =  readText(parser);
                 parser.require(XmlPullParser.END_TAG, ns, "photo-url");

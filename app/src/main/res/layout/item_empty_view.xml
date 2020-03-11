@@ -31,10 +31,11 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
+        android:background="@drawable/round_corners_15"
+        android:backgroundTint="@color/colorPrimaryDarker"
         android:text="@string/btn_retry"
-        android:textStyle="bold"
-        android:background="@color/colorPrimaryDarker"
         android:textColor="@color/iron"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_message" />

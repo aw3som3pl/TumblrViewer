@@ -7,7 +7,7 @@ import com.jnsoftware.tumblr.dataInterface.PerActivity;
 import com.jnsoftware.tumblr.ui.main.MainMvpPresenter;
 import com.jnsoftware.tumblr.ui.main.MainMvpView;
 import com.jnsoftware.tumblr.ui.main.MainPresenter;
-import com.jnsoftware.tumblr.ui.main.RssAdapter;
+import com.jnsoftware.tumblr.ui.main.TumblrFeedAdapter;
 import com.jnsoftware.tumblr.utils.rx.AppSchedulerProvider;
 import com.jnsoftware.tumblr.utils.rx.SchedulerProvider;
 
@@ -53,17 +53,10 @@ public class ActivityModule {
         return new AppSchedulerProvider();
     }
 
-
-
     @Provides
     @PerActivity
     MainMvpPresenter<MainMvpView> provideMainPresenter(MainPresenter<MainMvpView> presenter) {
         return presenter;
     }
 
-
-    @Provides
-    RssAdapter provideRssAdapter() {
-        return new RssAdapter(new ArrayList<>());
-    }
 }

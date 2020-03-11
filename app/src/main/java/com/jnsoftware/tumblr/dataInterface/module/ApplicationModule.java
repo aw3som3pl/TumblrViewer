@@ -9,11 +9,19 @@ import com.jnsoftware.tumblr.data.DataManager;
 import com.jnsoftware.tumblr.data.network.rest.NetworkService;
 import com.jnsoftware.tumblr.data.network.rest.RestApiHelper;
 import com.jnsoftware.tumblr.data.network.rest.RestApiManager;
+import com.jnsoftware.tumblr.data.parsers.TumblrXmlParser;
 import com.jnsoftware.tumblr.data.prefs.PreferencesHelper;
 import com.jnsoftware.tumblr.data.prefs.PreferencesManager;
 import com.jnsoftware.tumblr.dataInterface.ApplicationContext;
 import com.jnsoftware.tumblr.dataInterface.PreferenceInfo;
 import com.jnsoftware.tumblr.root.AppConstant;
+
+import org.xmlpull.v1.XmlPullParser;
+import org.xmlpull.v1.XmlPullParserException;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.Reader;
 
 import javax.inject.Singleton;
 
@@ -62,6 +70,10 @@ public class ApplicationModule {
     DataManager provideDataManager(BaseDataManager mDataManager) {
         return mDataManager;
     }
+
+    @Provides
+    @Singleton
+    TumblrXmlParser provideXmlPullParser() { return new TumblrXmlParser(); }
 
     @Provides
     @Singleton

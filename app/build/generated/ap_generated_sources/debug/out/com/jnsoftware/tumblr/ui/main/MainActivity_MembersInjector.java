@@ -7,33 +7,22 @@ import javax.inject.Provider;
 public final class MainActivity_MembersInjector implements MembersInjector<MainActivity> {
   private final Provider<MainMvpPresenter<MainMvpView>> mPresenterProvider;
 
-  private final Provider<RssAdapter> mRssAdapterProvider;
-
-  public MainActivity_MembersInjector(
-      Provider<MainMvpPresenter<MainMvpView>> mPresenterProvider,
-      Provider<RssAdapter> mRssAdapterProvider) {
+  public MainActivity_MembersInjector(Provider<MainMvpPresenter<MainMvpView>> mPresenterProvider) {
     this.mPresenterProvider = mPresenterProvider;
-    this.mRssAdapterProvider = mRssAdapterProvider;
   }
 
   public static MembersInjector<MainActivity> create(
-      Provider<MainMvpPresenter<MainMvpView>> mPresenterProvider,
-      Provider<RssAdapter> mRssAdapterProvider) {
-    return new MainActivity_MembersInjector(mPresenterProvider, mRssAdapterProvider);
+      Provider<MainMvpPresenter<MainMvpView>> mPresenterProvider) {
+    return new MainActivity_MembersInjector(mPresenterProvider);
   }
 
   @Override
   public void injectMembers(MainActivity instance) {
     injectMPresenter(instance, mPresenterProvider.get());
-    injectMRssAdapter(instance, mRssAdapterProvider.get());
   }
 
   public static void injectMPresenter(
       MainActivity instance, MainMvpPresenter<MainMvpView> mPresenter) {
     instance.mPresenter = mPresenter;
-  }
-
-  public static void injectMRssAdapter(MainActivity instance, RssAdapter mRssAdapter) {
-    instance.mRssAdapter = mRssAdapter;
   }
 }

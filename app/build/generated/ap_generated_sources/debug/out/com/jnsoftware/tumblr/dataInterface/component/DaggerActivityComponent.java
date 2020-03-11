@@ -2,10 +2,10 @@
 package com.jnsoftware.tumblr.dataInterface.component;
 
 import com.jnsoftware.tumblr.data.DataManager;
+import com.jnsoftware.tumblr.data.parsers.TumblrXmlParser_Factory;
 import com.jnsoftware.tumblr.dataInterface.module.ActivityModule;
 import com.jnsoftware.tumblr.dataInterface.module.ActivityModule_ProvideCompositeDisposableFactory;
 import com.jnsoftware.tumblr.dataInterface.module.ActivityModule_ProvideMainPresenterFactory;
-import com.jnsoftware.tumblr.dataInterface.module.ActivityModule_ProvideRssAdapterFactory;
 import com.jnsoftware.tumblr.dataInterface.module.ActivityModule_ProvideSchedulerProviderFactory;
 import com.jnsoftware.tumblr.ui.main.MainActivity;
 import com.jnsoftware.tumblr.ui.main.MainActivity_MembersInjector;
@@ -17,8 +17,6 @@ import dagger.internal.Preconditions;
 import javax.inject.Provider;
 
 public final class DaggerActivityComponent implements ActivityComponent {
-  private ActivityModule activityModule;
-
   private com_jnsoftware_tumblr_dataInterface_component_ApplicationComponent_getDataManager
       getDataManagerProvider;
 
@@ -49,12 +47,14 @@ public final class DaggerActivityComponent implements ActivityComponent {
         ActivityModule_ProvideCompositeDisposableFactory.create(builder.activityModule);
     this.mainPresenterProvider =
         MainPresenter_Factory.create(
-            getDataManagerProvider, provideSchedulerProvider, provideCompositeDisposableProvider);
+            getDataManagerProvider,
+            provideSchedulerProvider,
+            provideCompositeDisposableProvider,
+            TumblrXmlParser_Factory.create());
     this.provideMainPresenterProvider =
         DoubleCheck.provider(
             ActivityModule_ProvideMainPresenterFactory.create(
                 builder.activityModule, mainPresenterProvider));
-    this.activityModule = builder.activityModule;
   }
 
   @Override
@@ -64,8 +64,6 @@ public final class DaggerActivityComponent implements ActivityComponent {
 
   private MainActivity injectMainActivity(MainActivity instance) {
     MainActivity_MembersInjector.injectMPresenter(instance, provideMainPresenterProvider.get());
-    MainActivity_MembersInjector.injectMRssAdapter(
-        instance, ActivityModule_ProvideRssAdapterFactory.proxyProvideRssAdapter(activityModule));
     return instance;
   }
 

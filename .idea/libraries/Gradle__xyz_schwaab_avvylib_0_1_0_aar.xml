@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: xyz.schwaab:avvylib:0.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d56a3e5adef94a505daf510e6956e97/jetified-avvylib-0.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d56a3e5adef94a505daf510e6956e97/jetified-avvylib-0.1.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/xyz.schwaab/avvylib/0.1.0/6b22c960f9fd4e70bdc2f915913fc17b37c88027/avvylib-0.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/xyz.schwaab/avvylib/0.1.0/83bc40c6ceb25c694d905b6e3442245b72672e74/avvylib-0.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
