@@ -37,28 +37,27 @@
 22-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:14:9-54
 23        android:supportsRtl="true"
 23-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:15:9-35
-24        android:testOnly="true"
-25        android:theme="@style/AppTheme" >
-25-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:16:9-40
-26        <activity
-26-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:18:9-27:20
-27            android:name="com.jnsoftware.tumblr.ui.main.MainActivity"
-27-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:19:13-49
-28            android:label="@string/app_name"
-28-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:20:13-45
-29            android:theme="@style/AppTheme.NoActionBar" >
-29-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:21:13-56
-30            <intent-filter>
-30-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:22:13-26:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:23:17-69
-31-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:23:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:25:17-77
-33-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:25:27-74
-34            </intent-filter>
-35        </activity>
-36    </application>
-37
-38</manifest>
+24        android:theme="@style/AppTheme" >
+24-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:16:9-40
+25        <activity
+25-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:18:9-27:20
+26            android:name="com.jnsoftware.tumblr.ui.main.MainActivity"
+26-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:19:13-49
+27            android:label="@string/app_name"
+27-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:20:13-45
+28            android:theme="@style/AppTheme.NoActionBar" >
+28-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:21:13-56
+29            <intent-filter>
+29-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:22:13-26:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:23:17-69
+30-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:25:17-77
+32-->E:\ProjektyMOJE\TumblrViewer\app\src\main\AndroidManifest.xml:25:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>
