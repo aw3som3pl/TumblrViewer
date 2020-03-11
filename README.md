@@ -1,8 +1,8 @@
 Tumblr Viewer v1.0 Beta
 
 <b>FEATURES</b>:
-    - Browse Tumblr post feed by user Nick
-    - Dynamic RecyclerView with infinite scrolling capacity (theoretically)
+    * Browse Tumblr post feed by user Nick
+    * Dynamic RecyclerView with infinite scrolling capacity (theoretically)
 
 Used XmlPullParser instead of standard JSON parsing method ( I like challenges I guess)
 
