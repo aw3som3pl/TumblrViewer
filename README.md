@@ -30,4 +30,3 @@ Used XmlPullParser instead of standard JSON parsing method ( I like challenges I
     * Emulator - Nexus 5 API 24
     * Physical - Huawei Honor 6X API 24
 
-<b>DEVELOPMENT TIME</b>: Around 15 hours, based on simple MVP template (most spent on learning XmlPullParser).
